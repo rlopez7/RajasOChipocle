@@ -184,7 +184,7 @@ main {
 	display: table-cell;
 	vertical-align: middle;
 	color: #ebebeb;
-	padding: 0 8%;
+	/*padding: 0 8%; /**/
 	text-align: center
 }
 	.hsContent h2,

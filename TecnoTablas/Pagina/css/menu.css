@@ -1,8 +1,8 @@
 .menu{	
 	width:100%;
-    position:fixed;		
-	
-	align-self:center;
+    position:fixed;
+	background: #ffffff;
+	z-index: 999999	
 }
 .item{		
 	cursor:pointer;    
@@ -10,7 +10,7 @@
 .logo{
 	cursor:pointer;    
 	left:2px;
-	top:2px;
+
 	position:relative;
 	width:424px;
 	height:118px;	
@@ -23,9 +23,12 @@
 	position:relative;
 	width:91px;
 	height:49px;
-	background:transparent url(../img/btn_inicio.png) no-repeat top left;
-
+	background:transparent url(../img/btn_inicio.png) no-repeat top left;	
 }
+	.item_inicio:hover{		
+		background:transparent url(../img/btn_inicio_over.png) no-repeat top left;	
+	}
+	
 .item_soluciones{
 	float:right;
 	left:2px;
@@ -35,6 +38,9 @@
 	height:49px;
 	background:transparent url(../img/btn_soluciones.png) no-repeat top left;
 }
+	.item_soluciones:hover{		
+		background:transparent url(../img/btn_soluciones_over.png) no-repeat top left;	
+	}
 .item_tendencias{
 	float:right;
 	left:2px;
@@ -44,6 +50,9 @@
 	height:49px;
 	background:transparent url(../img/btn_tendencias.png) no-repeat top left;
 }
+	.item_tendencias:hover{		
+		background:transparent url(../img/btn_tendencias_over.png) no-repeat top left;	
+	}
 .item_nosotros{
 	float:right;
 	left:2px;
@@ -53,6 +62,9 @@
 	height:49px;
 	background:transparent url(../img/btn_nosotros.png) no-repeat top left;
 }
+	.item_nosotros:hover{		
+		background:transparent url(../img/btn_nosotros_over.png) no-repeat top left;	
+	}
 .item_madera{
 	float:right;
 	left:2px;
@@ -62,6 +74,9 @@
 	height:49px;
 	background:transparent url(../img/btn_madera.png) no-repeat top left;
 }
+	.item_madera:hover{		
+		background:transparent url(../img/btn_madera_over.png) no-repeat top left;	
+	}
 .item_descargas{
 	float:right;
 	left:2px;
@@ -71,3 +86,6 @@
 	height:49px;
 	background:transparent url(../img/btn_descargas.png) no-repeat top left;
 }
+	.item_descargas:hover{		
+		background:transparent url(../img/btn_descargas_over.png) no-repeat top left;	
+	}

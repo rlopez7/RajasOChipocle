@@ -11,8 +11,29 @@
 	background-image:url('../img/bg.png')
 }
 
+#soluciones .bcg{
+	background-image:url('../img/bg1.png')
+}
+#tendencias .bcg{
+	background-image:url('../img/bg.png')
+}
+
 h2 {
 				color: #000000;
 				font-family: 'Open Sans', sans-serif;
 				font-weight: normal;
 			}
+			
+.buttonImg {
+	width:100%;	
+}
+	
+.buttonsSoluciones{
+	width:100%;	
+	margin: 0 auto 0 auto;	
+	display:block;
+}
+.buttonsSoluciones.a{
+	 display:inline;
+	
+}
