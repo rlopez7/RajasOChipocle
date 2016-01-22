@@ -1,0 +1,73 @@
+.menu{	
+	width:100%;
+    position:fixed;		
+	
+	align-self:center;
+}
+.item{		
+	cursor:pointer;    
+}
+.logo{
+	cursor:pointer;    
+	left:2px;
+	top:2px;
+	position:relative;
+	width:424px;
+	height:118px;	
+	background: #ffff;
+}
+.item_inicio{
+	float:right;
+	left:2px;
+	top:2px;
+	position:relative;
+	width:91px;
+	height:49px;
+	background:transparent url(../img/btn_inicio.png) no-repeat top left;
+
+}
+.item_soluciones{
+	float:right;
+	left:2px;
+	top:2px;
+	position:relative;
+	width:224px;
+	height:49px;
+	background:transparent url(../img/btn_soluciones.png) no-repeat top left;
+}
+.item_tendencias{
+	float:right;
+	left:2px;
+	top:2px;
+	position:relative;
+	width:141px;
+	height:49px;
+	background:transparent url(../img/btn_tendencias.png) no-repeat top left;
+}
+.item_nosotros{
+	float:right;
+	left:2px;
+	top:2px;
+	position:relative;
+	width:128px;
+	height:49px;
+	background:transparent url(../img/btn_nosotros.png) no-repeat top left;
+}
+.item_madera{
+	float:right;
+	left:2px;
+	top:2px;
+	position:relative;
+	width:199px;
+	height:49px;
+	background:transparent url(../img/btn_madera.png) no-repeat top left;
+}
+.item_descargas{
+	float:right;
+	left:2px;
+	top:2px;
+	position:relative;	
+	width:140px;
+	height:49px;
+	background:transparent url(../img/btn_descargas.png) no-repeat top left;
+}
