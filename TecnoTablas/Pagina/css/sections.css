@@ -1,15 +1,19 @@
 #inicio .bcg{
-	background-image:url('../img/bg.png')
+	background-image:url('../img/bg1_white.png')
 }
 
 #soluciones .bcg{
-	background-image:url('../img/bg1.png')
+	/*background-image:url('../img/bg1_white.png')*/
 }
 #tendencias .bcg{
-	background-image:url('../img/bg.png')
+	/*background-image:url('../img/bg.png')*/
+}
+#nosotros .bcg{
+	background-image:url('../img/bg_nosotros_white.png')
 }
 
-	
+
+
 .buttonsSoluciones{
 	width:100%;	
 	margin: 0 auto 0 auto;	

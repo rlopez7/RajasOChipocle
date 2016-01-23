@@ -12,8 +12,7 @@
 	left:2px;
 
 	position:relative;
-	width:424px;
-	height:118px;	
+
 	background: #ffff;
 }
 .item_inicio{
@@ -89,3 +88,47 @@
 	.item_descargas:hover{		
 		background:transparent url(../img/btn_descargas_over.png) no-repeat top left;	
 	}
+
+.basicas{
+	background:transparent url(../img/Soluciones/btn_basicas.png) no-repeat center center;
+    background-size: contain;
+	width: 42em;
+    height: 33em;
+    left: 0;
+    position: absolute;
+    top:12em;
+}
+
+.basicas:hover {
+    background:transparent url(../img/Soluciones/btn_basicas_over.png) no-repeat center center;
+    background-size: contain;
+}
+
+.especializadas{
+    background:transparent url(../img/Soluciones/btn_especializadas.png) no-repeat center center;
+    background-size: contain;
+    width: 25em;
+    height: 33em;
+    left: 42em;
+    position: absolute;
+}
+
+.especializadas:hover {
+    background:transparent url(../img/Soluciones/btn_especializadas_over.png) no-repeat center center;
+    background-size: contain;
+}
+
+.decorativas{
+    background:transparent url(../img/Soluciones/btn_decorativas.png) no-repeat center center;
+    background-size: contain;
+    width: 30em;
+    height: 33em;
+    left:25em;
+    position: absolute;
+}
+
+.decorativas:hover {
+    background:transparent url(../img/Soluciones/btn_decorativas_over.png) no-repeat center center;
+    background-size: contain;
+    position: absolute;
+}
