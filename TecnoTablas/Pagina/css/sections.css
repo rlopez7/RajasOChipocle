@@ -1,12 +1,3 @@
-.section{
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-	width:100%;
-	height:100%;	
-}
-
 #inicio .bcg{
 	background-image:url('../img/bg.png')
 }
@@ -18,22 +9,25 @@
 	background-image:url('../img/bg.png')
 }
 
-h2 {
-				color: #000000;
-				font-family: 'Open Sans', sans-serif;
-				font-weight: normal;
-			}
-			
-.buttonImg {
-	width:100%;	
-}
 	
 .buttonsSoluciones{
 	width:100%;	
 	margin: 0 auto 0 auto;	
 	display:block;
 }
+	.buttonsSoluciones:hover .buttonImg{
+		opacity:.5;
+		left:2em;
+	}
+	.buttonsSoluciones:hover .buttonImg:hover{
+		opacity:1;
+		
+	}
 .buttonsSoluciones.a{
 	 display:inline;
 	
 }
+.buttonImg {
+	width:100%;	
+}
+
