@@ -1,0 +1,229 @@
+.menu{	
+	width:100%;
+    position:fixed;
+	background: #ffffff;
+	z-index: 999999	
+}
+.item{		
+	cursor:pointer;
+	font-family:nexa;
+	text-decoration:none;
+	color:black;
+	font-size:1.6em;
+	font-weight: bold; 
+}
+.logo{
+	cursor:pointer;    
+	left:2px;
+
+	position:relative;
+
+	background: #ffff;
+}
+.menu_item{
+	cursor:pointer;
+	font-family:nexa;
+	text-decoration:none;
+	color:black;
+	font-size:1em;
+	font-weight:normal;
+	background-image: none;
+	background-image: url("../img/rayita_menu.png");
+	background-repeat: repeat-x;
+	background-position:center top; 
+	background-size:auto 100%;
+}
+.menu_item_active{
+	cursor:pointer;
+	font-family:nexa;
+	text-decoration:none;
+	color:black;
+	font-size:1em;
+	font-weight: bold; 
+	background-image: url("../img/rayita_menu_hover.png");
+	background-repeat: repeat-x;
+	background-position:center top; 
+	background-size:auto 100%;
+}
+.menu_item:hover {
+	cursor:pointer;
+	font-family:nexa;
+	text-decoration:none;
+	color:black;
+	font-size:1em;
+	font-weight: bold; 
+	background-image: url("../img/rayita_menu_hover.png");
+	background-repeat: repeat-x;
+	background-position:center top; 
+	background-size:auto 100%;
+}
+.menu_item:active {
+	cursor:pointer;
+	font-family:nexa;
+	text-decoration:none;
+	color:black;
+	font-size:1em;
+	font-weight: bold; 
+	background-image: url("../img/rayita_menu_hover.png");
+	background-repeat: repeat-x;
+	background-position:center top; 
+	background-size:auto 100%;
+}
+
+.item_inicio{
+	float:right;
+	left:2px;
+	top:2px;
+	position:relative;
+	width:91px;
+	height:49px;
+	background:transparent url(../img/btn_inicio.png) no-repeat top left;	
+}
+.item_inicio:hover{		
+	background:transparent url(../img/btn_inicio_over.png) no-repeat top left;	
+}
+	
+.item_soluciones{
+	float:right;
+	left:2px;
+	top:2px;
+	position:relative;
+	width:224px;
+	height:49px;
+	background:transparent url(../img/btn_soluciones.png) no-repeat top left;
+}
+	.item_soluciones:hover{		
+		background:transparent url(../img/btn_soluciones_over.png) no-repeat top left;	
+	}
+.item_tendencias{
+	float:right;
+	left:2px;
+	top:2px;
+	position:relative;
+	width:141px;
+	height:49px;
+	background:transparent url(../img/btn_tendencias.png) no-repeat top left;
+}
+	.item_tendencias:hover{		
+		background:transparent url(../img/btn_tendencias_over.png) no-repeat top left;	
+	}
+.item_nosotros{
+	float:right;
+	left:2px;
+	top:2px;
+	position:relative;
+	width:128px;
+	height:49px;
+	background:transparent url(../img/btn_nosotros.png) no-repeat top left;
+}
+	.item_nosotros:hover{		
+		background:transparent url(../img/btn_nosotros_over.png) no-repeat top left;	
+	}
+.item_madera{
+	float:right;
+	left:2px;
+	top:2px;
+	position:relative;
+	width:199px;
+	height:49px;
+	background:transparent url(../img/btn_madera.png) no-repeat top left;
+}
+	.item_madera:hover{		
+		background:transparent url(../img/btn_madera_over.png) no-repeat top left;	
+	}
+.item_descargas{
+	float:right;
+	left:2px;
+	top:2px;
+	position:relative;	
+	width:140px;
+	height:49px;
+	background:transparent url(../img/btn_descargas.png) no-repeat top left;
+}
+	.item_descargas:hover{		
+		background:transparent url(../img/btn_descargas_over.png) no-repeat top left;	
+	}
+
+.basicas{
+	background:transparent url(../img/Soluciones/btn_basicas_over.png) no-repeat center center;
+    background-size: contain;
+	width: 42em;
+    height: 33em;
+    left: 0;
+    position: absolute;
+    top:12em;
+}
+
+.basicas:hover {
+    background:transparent url(../img/Soluciones/btn_basicas_blur.png) no-repeat center center;
+    background-size: contain;
+}
+
+.especializadas{
+    background:transparent url(../img/Soluciones/btn_especializadas_over.png) no-repeat center center;
+    background-size: contain;
+    width: 25em;
+    height: 33em;
+    left: 42em;
+    position: absolute;
+}
+
+.especializadas:hover {
+    background:transparent url(../img/Soluciones/btn_especializadas_blur.png) no-repeat center center;
+    background-size: contain;
+}
+
+.decorativas{
+    background:transparent url(../img/Soluciones/btn_decorativas_over.png) no-repeat center center;
+    background-size: contain;
+    width: 30em;
+    height: 33em;
+    left:25em;
+    position: absolute;
+}
+
+.decorativas:hover {
+    background:transparent url(../img/Soluciones/btn_decorativas_blur.png) no-repeat center center;
+    background-size: contain;
+    position: absolute;
+}
+
+.carousel { z-index: 0; } /* keeps this behind all content */
+.carousel .horsey {
+    position: fixed; 
+    width: 100%; height: 100%;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+
+}
+.carousel .horseyone {
+    background-image:url('../img/bg1_white.png');
+    background-size: cover;
+    -moz-background-size: cover;
+}
+.carousel .horseytwo {
+    background: url(../img/bg2_white.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.carousel .horseythree {
+    background: url(../img/bg3_white.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.carousel .horseyactive.horseyleft {
+    left:0;
+    opacity:0;
+    z-index:2;
+}

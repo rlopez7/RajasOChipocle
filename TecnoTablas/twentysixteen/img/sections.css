@@ -1,0 +1,61 @@
+#inicino .bcg{
+	background-image:url('../img/bg1_white.png')
+}
+
+#soluciones .bcg{
+	/*background-image:url('../img/bg1_white.png')*/
+}
+#tendencias .bcg{
+	/*background-image:url('../img/bg.png')*/
+}
+#nosotros .bcg{
+	/*background-image:url('../img/bg_nosotros_white.png')*/
+}
+
+
+
+.buttonsSoluciones{
+	width:100%;	
+	margin: 0 auto 0 auto;	
+	
+	
+}
+
+.buttonsSoluciones
+.buttonImg .deImg {
+	opacity:1;
+	left:2em;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+        transition: all .5s ease;
+        background-size:cover;
+	background-position:left top;
+	background-repeat:no-repeat;
+}
+
+.buttonsSoluciones:hover
+.buttonImg:hover .deImg {
+	/*opacity:.9;*/
+	transform: scale(1.05);
+	-webkit-filter: blur(1px);
+	-moz-filter: blur(1px);
+	-o-filter: blur(1px);
+	-ms-filter: blur(1px);
+	filter: blur(1px);
+	box-shadow: inset 0px 0px 0 5000px rgba(255,255,255,0.5);	
+	
+}
+
+
+.buttonsSoluciones.a{
+	 display:inline;
+	
+}
+.buttonImg {
+	width:100%;	
+	background-size:cover;
+	background-position:right bottom;
+}
+
