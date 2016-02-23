@@ -133,11 +133,12 @@
 </head>
 <body class="loading" data-spy="scroll" data-target=".navbar" >
 <header class="menu" align="center">
-	<nav class="navbar navbar-fixed-top" role="navigation" data-center="height:100%; background-color:rgba(255, 255, 255, 0)" data-center-bottom="height:40%; background-color:rgba(255, 255, 255, 0)" data-top-bottom="height:0%; background-color:rgba(255, 255, 255, 255)" data-anchor-target="#inicio" style="height:100%">
-		<a href="#inicio" style="position:absolute;left:0px;">
-			<img class="logo" border="0" src="<?php bloginfo('template_url'); ?>/img/logo.png" style="opacity:0;height:3.5vw;left:0px;" data-anchor-target="#inicio" data-center="top:-3.5vw;opacity:1" data-top-bottom="top:0px;opacity:1">
+	<nav class="navbar navbar-fixed-top" role="navigation" data-center="height:100%; background-color:rgba(255, 255, 255, 0)" data-center-bottom="height:40%; background-color:rgba(255, 255, 255, 0)" data-top-bottom="height: 5.2vw; background-color:rgba(255, 255, 255, 255)" data-anchor-target="#inicio" style="height:100%">
+		<a href="#inicio" style="position:relative;float:left;">
+			<img class="logo" border="0" src="<?php bloginfo('template_url'); ?>/img/logo.png" style="opacity:0;height:5.2vw;left:10px;" data-anchor-target="#inicio" data-center="top:-3.5vw;opacity:1" data-top-bottom="top:0px;opacity:1">
 		</a>
-		<div align="center" style="width:100%;height:100%" data-anchor-target="#inicio" data-center="padding-left:0%" data-50-top-bottom="padding-left:50%">
+
+		<div align="center" style="border:10;width:100%;height:100%" data-anchor-target="#inicio" data-center="padding-left:0%" data-50-top-bottom="padding-left:50%">
 		<table align="center" style="height:100%" data-anchor-target="#inicio" data-center="width:50%;" data-50-top-bottom="width:100%;">
 			<tr style="vertical-align:middle" data-anchor-target="#inicio" data-center="height:100%;" data-50-top-bottom="height:20%;">
 				<td class="item">

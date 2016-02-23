@@ -57,13 +57,17 @@
 	    s.refresh($('.homeSlide'));
 
 	}
-
+	    
+		
 	var cursorPos = 0,
 	        cursorPosPrev = 0,
 	        cursorInit = -100,
 	        scrollPos = 0;
+			var maxScrollLeft = $("div.sc_menu").parent().width();
 
 	    $("div.sc_menu").mousemove(function(e) {
+			 
+             
 	        if (cursorPos == 0) {
 	            cursorInit, cursorPos = e.pageX;
 	        } else {
@@ -83,7 +87,16 @@
 	                scrollPos = scrollPos - 3;
 	                $("div.sc_menu").scrollLeft(scrollPos);
 	                cursorPosPrev = cursorPos;
-	            }
+	            }else if( cursorPos > $(window).width() * .7 ){
+					 scrollPos = scrollPos + 3;
+	                $("div.sc_menu").scrollLeft(scrollPos);
+	                cursorPosPrev = cursorPos;					
+				} else if (cursorPos < $(window).width() * .3){
+					 scrollPos = scrollPos - 3;
+	                $("div.sc_menu").scrollLeft(scrollPos);
+	                cursorPosPrev = cursorPos;		
+				
+				}
 	        }
 	/*if(cursorPos < 558 && cursorPos > 548) {
 	                scrollPos = scrollPos+3;
@@ -92,5 +105,43 @@
 	            }*/
 	        $("#cursor").empty().append(cursorPos);
     });
+	
+		$('div.nosBtnLeft').bind('mouseenter', function() {			
+			this.iid = setInterval(function() {
+				scrollPos = scrollPos + 3;
+				/*alert(scrollPos + "=" + maxScrollLeft);*/
+				if (scrollPos > maxScrollLeft ){
+					$("div.sc_menu").scrollLeft(maxScrollLeft);
+					scrollPos=maxScrollLeft;
+				}else  if(scrollPos < 0) {					
+					$("div.sc_menu").scrollLeft(0);
+					scrollPos=0;
+				}else {
+					$("div.sc_menu").scrollLeft(scrollPos);					
+				}
+				
+			}, 20);
+		}).bind('mouseleave', function(){
+			this.iid && clearInterval(this.iid);
+		});
+		
+		$('div.nosBtnRight').bind('mouseenter', function() {			
+			this.iid = setInterval(function() {
+				scrollPos = scrollPos - 3;
+				/*alert(scrollPos + "=" + maxScrollLeft);*/
+				if (scrollPos < 0){
+					$("div.sc_menu").scrollLeft(0);
+					scrollPos=0;
+				}else	if (scrollPos > maxScrollLeft ){
+					$("div.sc_menu").scrollLeft(maxScrollLeft);
+					scrollPos=maxScrollLeft;
+				}else {				
+					$("div.sc_menu").scrollLeft(scrollPos);
+				}
+				
+			}, 20);
+		}).bind('mouseleave', function(){
+			this.iid && clearInterval(this.iid);
+		});
 
 } )( jQuery );

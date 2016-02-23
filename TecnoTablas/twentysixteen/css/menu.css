@@ -20,6 +20,17 @@
 
 	background: #ffff;
 }
+.title_underline{
+	font-family:nexa; 
+	color:black; 
+	font-size:1.6vw; 
+	padding-left:1vw; 
+	height:10vh;
+	display:table-cell;
+	vertical-align:middle;
+    line-height: .5vh;	
+}
+	
 .menu_item{
 	cursor:pointer;
 	font-family:nexa;

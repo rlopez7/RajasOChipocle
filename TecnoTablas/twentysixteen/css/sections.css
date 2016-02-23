@@ -56,6 +56,55 @@
 	background-size:cover;
 	background-position:right bottom;
 }
+.nosBtnScrollRight{
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+        transition: all .5s ease;
+	background-image: url(http://127.0.0.1:4001/wordpress/wp-content/themes/twentysixteen/img/right.png);
+	background-repeat: no-repeat;
+    background-position: center; 
+	position: relative;
+	height: 30vmin;
+	width: 30vmin;
+	background-size:80%;
+}
+.nosBtnScrollRight:hover {
+	background-image: url(http://127.0.0.1:4001/wordpress/wp-content/themes/twentysixteen/img/right.png);
+	background-repeat: no-repeat;
+    background-position: center; 
+	position: relative;
+	height: 30vmin;
+	width: 30vmin;
+	background-size:contain;
+	
+}
+.nosBtnScrollLeft{
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	transition: all .5s ease;
+	background-image: url(http://127.0.0.1:4001/wordpress/wp-content/themes/twentysixteen/img/left.png);
+	background-repeat: no-repeat;
+    background-position: center; 
+	/*background: transparent url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/nosotros.jpg) no-repeat fixed center center / cover ;*/
+	position: relative;
+	height: 30vmin;
+	width: 30vmin;
+	background-size:80%;
+}
+.nosBtnScrollLeft:hover {
+	background-image: url(http://127.0.0.1:4001/wordpress/wp-content/themes/twentysixteen/img/left.png);
+	background-repeat: no-repeat;
+    background-position: center; 
+	position: relative;
+	height: 30vmin;
+	width: 30vmin;
+	
+	background-size:contain;
+}
 
 .nosBtn {
 	-webkit-transition: all .5s ease;
