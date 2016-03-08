@@ -139,16 +139,14 @@ get_header(); */?>
 <body class="loading" data-spy="scroll" data-target=".navbar" >
 <body class="loading" style="height:100%!important;">
 <header class="menu" align="center">
-	<nav class="navbar navbar-fixed-top" role="navigation" style="height:100% height:20%; background-color:rgba(255, 255, 255, 255)">
-		<table align="center" style="width:50%;height:100%">
-			<tr style="vertical-align:center height:80%;">
-				<td align="center" colspan="6">
-					<a href="../#inicio">
-						<img class="logo" border="0" src="<?php bloginfo('template_url'); ?>/img/logo.png" style="height:6.5vw">
-					</a><br/>
-				<td>
-			</tr>
-			<tr style="vertical-align:top height:20%;">
+	<nav class="navbar navbar-fixed-top" role="navigation" style="height: 7vw; background-color: rgb(255, 255, 255);">
+		<a href="#inicio" style="position:relative;float:left;">
+			<img class="logo" border="0" src="<?php bloginfo('template_url'); ?>/img/logo.png" style="opacity: 1; height: 4vw; left: 10%; top: 3vh;">
+		</a>
+
+		<div align="center" style="width: 100%; height: 100%; padding-left: 50%;">
+		<table align="center" style="height: 100%; width: 100%;">
+			<tr style="vertical-align:middle;height:20%;">
 				<td class="item">
 					<a href="../#inicio" style="text-decoration:none"><div class="menu_item">&nbsp;&nbsp;INICIO&nbsp;&nbsp;</div></a>
 				</td>
@@ -165,7 +163,7 @@ get_header(); */?>
 					<a href="../#madera" style="text-decoration:none"><div class="menu_item">&nbsp;&nbsp;NUESTRA MADERA&nbsp;&nbsp;</div></a>
 				</td>
 				<td class="item">
-					<a href="../#descargas" style="text-decoration:none"><div class="menu_item" >&nbsp;&nbsp;DESCARGAS&nbsp;&nbsp;</div></a>
+					<a href="../#descargas" style="text-decoration:none"><div class="menu_item">&nbsp;&nbsp;DESCARGAS&nbsp;&nbsp;</div></a>
 				</td><!--
 				<td class="item">
 					<a class="item_inicio" href="../#inicio"></a>
@@ -185,121 +183,95 @@ get_header(); */?>
 				<td class="item">
 					<a class="item_descargas" href="../#descargas"></a>
 				</td>-->
-
 			</tr>
 
 		</table>
+		</div>
 	</nav>
 </header>
 <main style="padding-top: 8.5%">
-	<section id="intro" class="homeSlide" style="min-width:50px;">
-		<div class="bcg" data-anchor-target="#intro">
-			<div class="hsContainer" style="">
-			<table style="background-color:#D59236;height:100%;width:100%;" class="introTb">
+	<section id="intro" class="" style="min-width:50px;height:150vh">
+		<div align="left" class="title_underline" style="font-size: 1.5vw;">NOSOTROS<br/><b>_</b></div>
+		<div class="bcg">
+			<div style="height:100%;background: url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/Nosotros/madera.png) no-repeat fixed center center/ 100% 100%">
+			<table height="100%" width="100%">
 				<tr>
-					<td data-start="background-position: 0px 0px;" data-center="background-position: 0px 0px;" data-center-bottom="background-position: -800px 0px;"
-						data-anchor-target="#intro .introTb" style="height:100%; width:50%; background: url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/nsBg1.png) no-repeat fixed left center/ 50% 100%">
-					</td>
-					<td data-start="background-position: 100% 0px;" data-center="background-position: 100% 0px;" data-center-bottom="background-position: 200% 0px;"
-						data-anchor-target="#intro .introTb" style="height:100%; width:50%; background: url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/nsBg2.png) no-repeat fixed right center/ 50% 100%">
+					<td style="width:60%">&nbsp;</td>
+					<td style="width:40%;font-family: nexa; font-size: 1.5vw;"
+						data-bottom="background-color: rgba(255, 255, 255, 0); border-left:solid 4px rgba(255, 255, 255, 0)"
+						data-center-bottom="background-color: rgba(255, 255, 255, 0.8); border-left:solid 4px rgba(255, 255, 255, 1); opacity:1"
+						data-center="background-color: rgba(255, 255, 255, 0.8); border-left:solid 4px rgba(255, 255, 255, 1); opacity:1"
+						data-center-top="background-color: rgba(255, 255, 255, 0.8); border-left:solid 4px rgba(255, 255, 255, 1); opacity:1"
+						data--500-top="background-color: rgba(255, 255, 255, 0); border-left:solid 4px rgba(255, 255, 255, 0); opacity:0" data-start="opacity:0" data-anchor-target="#text">		
+					<div style="height:20vh">&nbsp;</div>
+					<div align="center" style="width:100%;height:10%">Primera empresa mexicana en fabricar </br>tableros especializados de alta calidad.</div>
+					<div align="center" style="width:100%;height:10%">&nbsp;</div>
+					<div id="text" align="center" style="width:100%;height:10%">Con materia prima 100 % sustentable, </br>proveniente de nuestras plantaciones </br>forestales renovables, tecnología de punta y </br>un enfoque en innovación de productos. </div>
+					<div align="center" style="width:100%;height:10%">&nbsp;</br>&nbsp;</div>
+					<div align="center" style="font-size: 2vw;width:100%;height:10%">HACEMOS PROYECTOS </br><p style="font-size: 4.8vw;">REALIDAD</p></div>
+					<div align="center" style="width:100%;height:10%">&nbsp;</div>
 					</td>
 				</tr>
 			</table>
 			</div>
-			<div class="hsContainer" style="position:relative;top:-100%;">
-				<table style="height:100%;width:100%;">
-					<tr style="font-family: nexa; font-size: 1.3vw; line-height: 1.2; height: 30%; color: white;">
-						<td colspan="3" style="text-align: center;">
-							<div data-start="left: 0px;" data-center="left: 0px;" data-center-bottom="left: -800px;" data-anchor-target="#intro .introTb"
-								style="position:relative; font-size:5vw">
-								<b>NOSOTROS</b>
-							</div>
-						</td>
-					</tr>
-					<tr style="font-family: nexa; font-size: 1.3vw; line-height: 1.2; height: 30%; color: white;">
-						<td colspan="2" style="text-align: center;width:40%">
-							<div data-start="left: 0px;" data-center="left: 0px;" data-center-bottom="left: -800px;" data-anchor-target="#intro .introTb"
-								style="position:relative">
-								SOMOS LA <b>PRIMERA EMPRESA MEXICANA</b></br>
-								EN FABRICAR TABLEROS ESPECIALIZADOS DE </br>
-								BUENA MADERA, CON MATERIA PRIMA <b>100 %</br>
-								SUSTENTABLE</b>, PROVENIENTE DE NUESTRAS </br>
-								PLANTACIONES FORESTALES RENOVABLES, </br>
-								TECNOLOGÍA DE PUNTA Y UN ENFOQUE EN </br>
-								<b>INNOVACIÓN DE PRODUCTOS. </b>
-							</div>
-						</td>
-						<td style="text-align: center;width:40%">&nbsp;</td>
-					</tr>
-					<tr style="font-family: nexa; font-size: 1.3vw; line-height: 1.2; height: 20%; color: white;">
-						<td style="text-align: center;width:40%">&nbsp;</td>
-						<td colspan="2" style="text-align: center;width:40%">
-							<div data-start="left: 0px;" data-center="left: 0px;" data-center-bottom="left: 800%;" data-anchor-target="#intro .introTb"
-								style="position:relative">
-								EL CONTROL DE LA MATERIA PRIMA NOS </br>
-								PERMITE OFRECER AL MERCADO </br>
-								<b>TABLEROS DE ALTA CALIDAD. </b>
-							</div>
-						</td>
-					</tr>
-					<tr style="font-family: nexa; font-size: 1.3vw; line-height: 1.2; height: 20%; color: white;">
-						<td colspan="3" style="text-align: center; width: 40%; background-position: 0px 0px; padding-left: 15%;">
-							<div data-start="left: 0px;" data-center="left: 0px;" data-center-bottom="left: -1200px;" data-anchor-target="#intro .introTb"
-								style="position:relative">
-								<b>QUE HACEN PROYECTOS REALIDAD</b>
-							</div>
-						</td>
-					</tr>
-				</table>
-				<div data-anchor-target="#intro" style="font-family: nexa; font-size: 1.3vw; line-height: 1.2; height: 34%; color: white; position: relative; top: 50%; left: 10%;">
-				asdsadsa
-				</div>
-				<div style="font-family: nexa; font-size: 1.3vw; line-height: 1.2; height: 34%; color: white; position: relative; top: 50%; left: 10%;">
-
-				</div>
-			</div>
 		</div>
 	</section>
-	<section id="adn" class="homeSlide" >
-		<div class="bcg" style="background-color:#D59236" data-anchor-target="#adn" align="center">
+	<section id="adn" style="height:78vh">
+
+		<div class="bcg" style="background-color:white" data-anchor-target="#adn" align="center">
+<div align="left" class="title_underline" style="width:100vw;font-size: 1.5vw;">&nbsp;<br/><br/><br/>NUESTRO ADN<br/><b>_</b></div>
 			<div class="hsContainer">
-			<div align="center" style="font-family: nexa; color:white; position:relative; font-size:5vw">
-				<b>NUESTRO ADN</b>
-			</div>
-			<div align="center" style="font-family: nexa; color:white; position:relative; font-size:1.8vw">
-				CREAMOS TABLEROS ESPECIALIZADOS DE</br>
-				BUENA MADERA PARA HACER TUS PROYECTOS</br>
-				REALIDAD.
-			</div>
-			<img class="aStart" data-bottom-top="transform: rotate(180deg); transform-origin: 50% 50% 0;" data-center-top="transform: rotate(0deg); transform-origin: 50% 50% 0;"
-				data-anchor-target="#adn .aStart" src="http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/circle1.png"
-				style="width: 40vw; height: 40vw; position: absolute; left: 30vw;top:15vh;"/>
-			<img data-bottom-top="transform: rotate(-180deg); transform-origin: 50% 50% 0;" data-center-top="transform: rotate(0deg); transform-origin: 50% 50% 0;"
-				data-anchor-target="#adn" src="http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/circle2.png"
-				style="width: 40vw; height: 40vw; position: absolute; left: 30vw;top:15vh;"/>
-			<img data-bottom-top="transform: rotate(180deg); transform-origin: 50% 50% 0;" data-center-top="transform: rotate(0deg); transform-origin: 50% 50% 0;"
-				data-anchor-target="#adn .aStart" src="http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/circle3.png"
-				style="width: 40vw; height: 40vw; position: absolute; left: 30vw;top:15vh;"/>
-				<img data-bottom-top="opacity:0;" data-center-top="opacity:1;"
-				data-anchor-target="#adn .aStart" src="http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/circletext1.png"
-				style="width: 40vw; height: 40vw; position: absolute; left: 30vw;top:15vh;"/>
-			<img data-bottom-top="opacity:0;" data-center-top="opacity:1;"
-				data-anchor-target="#adn .aStart" src="http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/circletext2.png"
-				style="width: 40vw; height: 40vw; position: absolute; left: 30vw;top:15vh;"/>
-			<img data-bottom-top="opacity:0;" data-center-top="opacity:1;"
-				data-anchor-target="#adn .aStart" src="http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/circletext3.png"
-				style="width: 40vw; height: 40vw; position: absolute; left: 30vw;top:15vh;"/>
-			<img data-bottom-top="opacity:0;" data-center-top="opacity:1;"
-				data-anchor-target="#adn .aStart" src="http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/clearLogo.png"
-				style="width: 40vw; height: 40vw; position: absolute; left: 30vw;top:15vh;"/>
+			
+			<div style="display: table; width: 100%; height: 80%; overflow: hidden; font-family: nexa; color: black; font-size: 2vw; border-collapse: separate; table-layout: fixed; border-spacing: 10px;">
+				<div id="porqueBtn" class="animBtn" style="overflow: hidden;display: table-cell;background-image:url('http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/Nosotros/por_que.png');background-repeat: no-repeat; background-size: cover;">
+
+				<table height="100%" width="100%">
+					<tr style="height:60%"><td>&nbsp;</td></tr>
+					<tr><td style="height: 100%; overflow: hidden;">
+						<div id="accesory" style="white-space: nowrap; height:150%;font-family: nexa; text-decoration: none; color: black; text-align: left; background-color: rgba(255, 255, 255, 0.5); font-size: 1.2vw; padding-top:5%; padding-left: 3%;">
+							NUESTRA RAZÓN DE EXISTIR</br>Existimos para crear soluciones</br>de buena madera al alcance de todos.
+						</div>
+					</td></tr>
+					<tr>
+					<td>
+					<div style="background-color: rgba(255, 255, 255, 0.5);">&nbsp;&nbsp;&nbsp;POR QUÉ</div>
+					</td></tr>
+				</table>
+				</div>
+				<div id="comoBtn" class="animBtn" style="overflow: hidden;display: table-cell;background-image:url('http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/Nosotros/que.png');background-repeat: no-repeat; background-size: cover;">
+				<table height="100%" width="100%">
+					<tr style="height:60%"><td>&nbsp;</td></tr>
+					<tr><td style="height:100%; overflow: hidden;">
+						<div id="accesory" style="white-space: nowrap; height:150%;font-family: nexa; text-decoration: none; color: black; text-align: left; background-color: rgba(255, 255, 255, 0.5); font-size: 1.2vw; padding-top: 5%; padding-left: 3%;">
+							Plantamos árboles donde no hay para fabricar madera directa del tronco y crear tableros especializados.
+						</div>
+					</td></tr>
+					<tr>
+					<td style="background-color: rgba(255, 255, 255, 0.5);">
+					<div>&nbsp;&nbsp;&nbsp;CÓMO LO HACEMOS</div>
+					</td></tr>
+				</table>
+				</div>
+				<div id="queBtn" class="animBtn" style="overflow: hidden;display: table-cell;background-image:url('http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/Nosotros/como.png');background-repeat: no-repeat; background-size: cover;">
+				<table height="100%" width="100%">
+					<tr style="height:60%"><td>&nbsp;</td></tr>
+					<tr><td style="height:100%; overflow: hidden;">
+						<div id="accesory" style="white-space: nowrap; height:150%;font-family: nexa; text-decoration: none; color: black; text-align: left; background-color: rgba(255, 255, 255, 0.5); font-size: 1.2vw; padding-top: 5%; padding-left: 3%;">
+							Creamos tableros especializados de buena madera para hacer</br>tus proyectos realidad
+						</div>
+					</td></tr>
+					<tr>
+					<td>
+					<div style="background-color: rgba(255, 255, 255, 0.5);">&nbsp;&nbsp;&nbsp;QUÉ VENDEMOS</div>
+					</td></tr>
+				</table>
+				</div>
 			</div>
 		</div>
 	</section>
 	<section id="timeline" class="homeSlide homeSlideTall">
-		<div class="bcg" style="background-image:url('http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/Nosotros/bg_historia.png')" data-anchor-target="#timeline">
-			<div align="center" style="position:relative;width=100%;font-family: nexa; font-size: 5vw; line-height: 1.2;color: white; height:20vh;padding-top:8vh">
-				<b>HISTORIA</b>
-			</div>
+<div align="left" class="title_underline" style="font-size: 1.5vw;">HISTORIA<br/><b>_</b></div>
+		<div class="bcg" style="height:93%;background-image:url('http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/Nosotros/bg_historia.png')" data-anchor-target="#timeline"><div>&nbsp;</div>
 			<div style="position:relative" data-anchor-target="#timeline">
 
 
@@ -326,100 +298,74 @@ get_header(); */?>
 		</div>
 	</section>
 	<section id="propuesta" class="homeSlide" style="height:120%">
-		<div class="bcg" align="center" style="background-color:#3D5B58" data-anchor-target="#propuesta">
-			<div align="center" style="position:relative;width:80%;font-family: nexa; font-size: 1.3vw; line-height: 1.2;color: white; height:3vh;">
-				&nbsp;
-			</div>
-			<div align="center" style="position: relative; font-family: nexa; font-size:3.5vw; line-height: 1.2; color: white; height: 16vh; padding-top: 3vh; border-top: 5px solid white; border-bottom: 5px solid white; width: 80%;">
-				<b>PROPUESTA DE VALOR</b>
-			</div>
+		<div align="left" class="title_underline" style="font-size: 1.5vw;">PROPUESTA DE VALOR<br/><b>_</b></div>
+		<div class="bcg" align="center" data-anchor-target="#propuesta">
 			<div align="center">
 				<div align="center" style="position:relative;width=80%;font-family: nexa; font-size: 1.3vw; line-height: 1.2;color: white; height:5%;">
 					&nbsp;
 				</div>
-				<table style="font-family: nexa; font-size: 1.3vw; color: white;" width="80%" height="80%">
-					<tr style="border-bottom: 5px solid white;" class="propuestaRow1">
-						<td style="border-right: 5px solid white;">
-							<table width="100%" height="100%">
-								<tr>
-									<td style="width:20%">
-										<div style="position:relative;font-size:25vh" data-bottom-top="right:180px;opacity:0" data-center-top="right:0px;opacity:1" data-anchor-target="#propuesta .propuestaRow1"><b>1</b></div>
-									</td>
-									<td style="vertical-align:text-top">
-										<div style="position:relative" data-bottom-top="right:180px;opacity:0" data-center-top="right:0px;opacity:1" data-anchor-target="#propuesta .propuestaRow1">
-											<div style="font-size:3.5vh">ALTA <b>CALIDAD</b></div>
-											<ul>
-												<li>Tableros que provienen del tronco, no de desperdicios</li>
-												<li>La mejor y más avanzada tecnología de fabricación alemana</li>
-												<li>Control del suminsitro de materia prima de nuestras plantaciones que garantiza la calidad</li>
-												<li>Proyecto industrial integrado del arbol al tablero</li>
-											</ul>
-										</div>
-									</td>
-								</tr>
+				<table style="font-family: nexa; font-size: 1.3vw;height:90vh" width="80%" height="80%">
+					<tr style="border-bottom: 5px solid white;height:50%; vertical-align: top;">
+						<td width="50%" style="border-right: 5px solid white;background-image:url('http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/Nosotros/propuesta1.png');background-repeat: no-repeat; background-size: cover;">
+							<table id="move" width="100%" height="100%" align="center">
+								<tr height="20%" style="background-color: rgba(255, 255, 255, 0.8); vertical-align: middle;">
+								<td style="padding-left: 10%;">ALTA CALIDAD</td></tr>
+
+								<tr ><td style="overflow:hidden;vertical-align:top">
+								<div id="mmv" style="background-color: rgba(255, 255, 255, 0.8); vertical-align: top;overflow:hidden;" align="center">
+								&nbsp;</br>Tableros que provienen del tronco, no de desperdicios</br>
+								La mejor y más avanzada tecnología de fabricación alemana</br>
+								Control del suminsitro de materia prima de nuestras plantaciones que garantiza la calidad</br>
+								Proyecto industrial integrado del arbol al tablero</br></br>&nbsp;
+								<div>
+								</td></tr>
 							</table>
 						</td>
-						<td>
-							<table width="100%" height="100%">
-								<tr>
-									<td style="width:20%">
-										<div style="position:relative;font-size:25vh" data-bottom-top="bottom:180px;opacity:0" data-center-top="bottom:0px;opacity:1" data-anchor-target="#propuesta .propuestaRow1"><b>2</b></div>
-									</td>
-									<td style="vertical-align:text-top">
-										<div style="position:relative;" data-bottom-top="bottom:180px;opacity:0" data-center-top="bottom:0px;opacity:1" data-anchor-target="#propuesta .propuestaRow1">
-											<div style="font-size:3.5vh">DESARROLLAMOS <b>MÉXICO</b> Y NUESTRO ENTORNO</div>
-											<ul>
-												<li>Bosques sustentables certificados FSC&reg;</li>
-												<li>Creación de empleos</li>
-												<li>Industria limpia, generamos nuestra propia energía</li>
-												<li>Promovemos el espíritu emprendedor</li>
-												<li>Empresa 100% Mexicana</li>
-											</ul>
-										</div>
-									</td>
-								</tr>
+						<td width="50%"style="background-image:url('http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/Nosotros/propuesta2.png');background-repeat: no-repeat; background-size: cover;">
+							<table id="move" width="100%" height="100%" align="center">
+								<tr height="20%" style="background-color: rgba(255, 255, 255, 0.8); vertical-align: middle;">
+								<td style="padding-left: 10%;">DESARROLLAMOS MÉXICO</br> Y NUESTRO ENTORNO</td></tr>
+								<tr ><td style="overflow:hidden;vertical-align:top">
+								<div id="mmv" style="background-color: rgba(255, 255, 255, 0.8); vertical-align: top;overflow:hidden;" align="center">
+								&nbsp;</br>Bosques sustentables certificados FSC&reg;</li>
+								Creación de empleos</br>
+								Industria limpia, generamos nuestra propia energía</br>
+								Promovemos el espíritu emprendedor</br>
+								Empresa 100% Mexicana</br></br>&nbsp;
+								<div>
+								</td></tr>
 							</table>
 						</td>
 					</tr>
-					<tr class="propuestaRow2">
-						<td style="border-right: 5px solid white;">
-							<table width="100%" height="100%">
-								<tr>
-									<td style="width:20%">
-										<div style="position:relative;font-size:25vh" data-bottom-top="top:180px;opacity:0" data-center-top="top:0px;opacity:1" data-anchor-target="#propuesta .propuestaRow1"><b>3</b></div>
-									</td>
-									<td style="vertical-align:text-top">
-										<div style="position:relative;" data-bottom-top="top:180px;opacity:0" data-center-top="top:0px;opacity:1" data-anchor-target="#propuesta .propuestaRow1">
-											<div style="font-size:3.5vh"><b>SOLUCIONES</b> DIFERENCIADAS Y DE <b>VALOR AGREGADO</b></div>
-											<ul>
-												<li>Diferentes soluciones para cada necesidad</li>
-												<li>Tableros especializados que se adecuan a los usos frecuentes del MDF</li>
-												<li>Últimas tendencias de diseño</li>
-												<li>Tableros sustentables y certificados internacionalmente</li>
-											</ul>
-										</div>
-									</td>
-								</tr>
+					<tr style="height:50%; vertical-align: top;">
+						<td width="50%" style="border-right: 5px solid white;background-image:url('http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/Nosotros/propuesta3.png');background-repeat: no-repeat; background-size: cover;">
+							<table id="move" width="100%" height="100%" align="center">
+								<tr height="20%" style="background-color: rgba(255, 255, 255, 0.8); vertical-align: middle;">
+								<td style="padding-left: 10%;">SOLUCIONES DIFERENCIADAS</br>Y DE VALOR AGREGADO</td></tr>
+
+								<tr ><td style="overflow:hidden;vertical-align:top">
+								<div id="mmv" style="background-color: rgba(255, 255, 255, 0.8); vertical-align: top;overflow:hidden;" align="center">
+								&nbsp;</br>Diferentes soluciones para cada necesidad</br>
+								Tableros especializados que se adecuan a los usos frecuentes del MDF</br>
+								Últimas tendencias de diseño</br>
+								Tableros sustentables y certificados internacionalmente</br></br>&nbsp;
+								<div>
+								</td></tr>
 							</table>
 						</td>
-						<td>
-							<table width="100%" height="100%">
-								<tr>
-									<td style="width:20%">
-										<div style="position:relative;font-size:25vh" data-bottom-top="left:180px;opacity:0" data-center-top="left:0px;opacity:1" data-anchor-target="#propuesta .propuestaRow1"><b>4</b></div>
-									</td>
-									<td style="vertical-align:text-top">
-										<div style="position:relative;" data-bottom-top="left:180px;opacity:0" data-center-top="left:0px;opacity:1" data-anchor-target="#propuesta .propuestaRow1">
-											<div style="font-size:3.5vh">EXPERIENCIA DE <b>COMPRA ÚNICA</b></div>
-											<ul>
-												<li>Orientación al cliente</li>
-												<li>Entrenamiento y capacitación especializada en MDF</li>
-												<li>Personal técnicamente capacitado y especializado</li>
-												<li>Entregas Puntuales</li>
-											</ul>
-										</div>
-									</td>
-								</tr>
+						<td width="50%" style="background-image:url('http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/Nosotros/propuesta4.png');background-repeat: no-repeat; background-size: cover;">
+							<table id="move" width="100%" height="100%" align="center">
+								<tr height="20%" style="background-color: rgba(255, 255, 255, 0.8); vertical-align: middle;">
+								<td style="padding-left: 10%;">EXPERIENCIA DE COMPRA ÚNICA</td></tr>
+
+								<tr ><td style="overflow:hidden;vertical-align:top">
+								<div id="mmv" style="background-color: rgba(255, 255, 255, 0.8); vertical-align: top;overflow:hidden;" align="center">
+								&nbsp;</br>Orientación al cliente</br>
+								Entrenamiento y capacitación especializada en MDF</br>
+								Personal técnicamente capacitado y especializado</br>
+								Entregas Puntuales</br></br>&nbsp;
+								<div>
+								</td></tr>
 							</table>
 						</td>
 					</tr>
@@ -427,8 +373,477 @@ get_header(); */?>
 			</div>
 		</div>
 	</section>
+	<div style="height:50px">&nbsp;</div>
+	<section id="comoHacemos" class="" style="height:120%">
+		<div align="left" class="title_underline" style="font-size: 1.5vw;">¿CÓMO LO HACEMOS?<br/><b>_</b></div>
+		<div id="cd-timeline">
+			<div class="cd-timeline-block">
+				<div id="cd-timeline-first" class="cd-timeline-img is-hidden"
+					data-anchor-target="#cd-timeline-first"
+					data-start="@class:cd-timeline-img is-hidden"
+					data-300-center="@class:cd-timeline-img bounce-in" data-emit-events>
+					<div align="center" class="cd-timeline-inner">1</div>
+				</div> <!-- cd-timeline-img -->
+
+				<div class="cd-timeline-content is-hidden"
+					data-anchor-target="#cd-timeline-first"
+					data-start="@class:cd-timeline-content is-hidden"
+					data-300-center="@class:cd-timeline-content bounce-in" data-emit-events>
+					<table width="60%" height="100%">
+						<tr><td style="width:30px;">&nbsp;</td><td align="center" style="height: 30%; border-bottom: 3px dotted black; font-family: nexa; font-size: 1.4vw;">PLANTAR<td><td style="width:30px;"></tr>
+						<tr><td colspan="2" style="background-image:url('http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/Nosotros/plantar.png');background-repeat: no-repeat; background-size: contain;background-position:center center">&nbsp;<td></tr>
+					</table>
+
+				</div> <!-- cd-timeline-content -->
+			</div> <!-- cd-timeline-block -->
+
+			<div class="cd-timeline-block">
+				<div id="cd-timeline-second" class="cd-timeline-img is-hidden"
+					data-anchor-target="#cd-timeline-first"
+					data-start="@class:cd-timeline-img is-hidden"
+					data-center="@class:cd-timeline-img bounce-in" data-emit-events>
+					<div align="center" class="cd-timeline-inner">2</div>
+				</div> <!-- cd-timeline-img -->
+
+				<div class="cd-timeline-content is-hidden" align="right"
+					data-anchor-target="#cd-timeline-first"
+					data-start="@class:cd-timeline-content is-hidden"
+					data-center="@class:cd-timeline-content bounce-in" data-emit-events>
+					<table width="60%" height="100%">
+						<tr><td style="width:30px;">&nbsp;</td><td align="center" style="height: 30%; border-bottom: 3px dotted black; font-family: nexa; font-size: 1.4vw;">CORTAR<td><td style="width:30px;"></tr>
+						<tr><td colspan="3" style="background-image:url('http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/Nosotros/cortado.png');background-repeat: no-repeat; background-size: contain;background-position:center center">&nbsp;<td></tr>
+					</table>
+
+				</div> <!-- cd-timeline-content -->
+			</div> <!-- cd-timeline-block -->
+
+			<div class="cd-timeline-block">
+				<div id="cd-timeline-third" class="cd-timeline-img is-hidden"
+					data-anchor-target="#cd-timeline-second"
+					data-start="@class:cd-timeline-img is-hidden"
+					data-center="@class:cd-timeline-img bounce-in" data-emit-events>
+					<div align="center" class="cd-timeline-inner">3</div>
+				</div> <!-- cd-timeline-img -->
+
+				<div class="cd-timeline-content is-hidden"
+					data-anchor-target="#cd-timeline-second"
+					data-start="@class:cd-timeline-content is-hidden"
+					data-center="@class:cd-timeline-content bounce-in" data-emit-events>
+					<table width="60%" height="100%">
+						<tr><td style="width:30px;">&nbsp;</td><td align="center" style="height: 30%; border-bottom: 3px dotted black; font-family: nexa; font-size: 1.4vw;">RECOLECTAR TRONCOS<td><td style="width:30px;"></tr>
+						<tr><td colspan="2" style="background-image:url('http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/Nosotros/recoleccion.png');background-repeat: no-repeat; background-size: contain;background-position:center center">&nbsp;<td></tr>
+					</table>
+
+				</div> <!-- cd-timeline-content -->
+			</div> <!-- cd-timeline-block -->
+
+			<div class="cd-timeline-block">
+				<div id="cd-timeline-fourth" class="cd-timeline-img is-hidden"
+					data-anchor-target="#cd-timeline-third"
+					data-start="@class:cd-timeline-img is-hidden"
+					data-center="@class:cd-timeline-img bounce-in" data-emit-events>
+					<div align="center" class="cd-timeline-inner">4</div>
+				</div> <!-- cd-timeline-img -->
+
+				<div class="cd-timeline-content is-hidden" align="right"
+					data-anchor-target="#cd-timeline-third"
+					data-start="@class:cd-timeline-content is-hidden"
+					data-center="@class:cd-timeline-content bounce-in" data-emit-events>
+					<table width="60%" height="100%">
+						<tr><td style="width:30px;">&nbsp;</td><td align="center" style="height: 30%; border-bottom: 3px dotted black; font-family: nexa; font-size: 1.4vw;">TRITURAR<td><td style="width:30px;"></tr>
+						<tr><td colspan="3" style="background-image:url('http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/Nosotros/triturado.png');background-repeat: no-repeat; background-size: contain;background-position:center center">&nbsp;<td></tr>
+					</table>
+				</div> <!-- cd-timeline-content -->
+			</div> <!-- cd-timeline-block -->
+
+			<div class="cd-timeline-block">
+				<div id="cd-timeline-fifth" class="cd-timeline-img is-hidden"
+					data-anchor-target="#cd-timeline-fourth"
+					data-start="@class:cd-timeline-img is-hidden"
+					data-center="@class:cd-timeline-img bounce-in" data-emit-events>
+					<div align="center" class="cd-timeline-inner">5</div>
+				</div> <!-- cd-timeline-img -->
+
+				<div class="cd-timeline-content is-hidden"
+					data-anchor-target="#cd-timeline-fourth"
+					data-start="@class:cd-timeline-content is-hidden"
+					data-center="@class:cd-timeline-content bounce-in" data-emit-events>
+					<table width="60%" height="100%">
+						<tr><td style="width:30px;">&nbsp;</td><td align="center" style="height: 30%; border-bottom: 3px dotted black; font-family: nexa; font-size: 1.4vw;">DESFIBRAR<td><td style="width:30px;"></tr>
+						<tr><td colspan="2" style="background-image:url('http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/Nosotros/desfibrado.png');background-repeat: no-repeat; background-size: contain;background-position:left center">&nbsp;<td></tr>
+					</table>
+
+				</div> <!-- cd-timeline-content -->
+			</div> <!-- cd-timeline-block -->
+
+			<div class="cd-timeline-block">
+				<div id="cd-timeline-sixth" class="cd-timeline-img is-hidden"
+					data-anchor-target="#cd-timeline-fifth"
+					data-start="@class:cd-timeline-img is-hidden"
+					data-center="@class:cd-timeline-img bounce-in" data-emit-events>
+					<div align="center" class="cd-timeline-inner">6</div>
+				</div> <!-- cd-timeline-img -->
+
+				<div class="cd-timeline-content is-hidden" align="right"
+					data-anchor-target="#cd-timeline-fifth"
+					data-start="@class:cd-timeline-content is-hidden"
+					data-center="@class:cd-timeline-content bounce-in" data-emit-events>
+					<table width="60%" height="100%">
+						<tr><td style="width:30px;">&nbsp;</td><td align="center" style="height: 30%; border-bottom: 3px dotted black; font-family: nexa; font-size: 1.4vw;">FORMACIÓN<td><td style="width:30px;"></tr>
+						<tr><td colspan="4" style="background-image:url('http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/Nosotros/formacion.png');background-repeat: no-repeat; background-size: contain;background-position:right center">&nbsp;<td></tr>
+					</table>
+				</div> <!-- cd-timeline-content -->
+			</div> <!-- cd-timeline-block -->
+
+			<div class="cd-timeline-block">
+				<div id="cd-timeline-seventh" class="cd-timeline-img is-hidden"
+					data-anchor-target="#cd-timeline-sixth"
+					data-start="@class:cd-timeline-img is-hidden"
+					data-center="@class:cd-timeline-img bounce-in" data-emit-events>
+					<div align="center" class="cd-timeline-inner">7</div>
+				</div> <!-- cd-timeline-img -->
+
+				<div class="cd-timeline-content is-hidden"
+					data-anchor-target="#cd-timeline-sixth"
+					data-start="@class:cd-timeline-content is-hidden"
+					data-center="@class:cd-timeline-content bounce-in" data-emit-events>
+					<table width="60%" height="100%">
+						<tr><td style="width:30px;">&nbsp;</td><td align="center" style="height: 30%; border-bottom: 3px dotted black; font-family: nexa; font-size: 1.4vw;">PREPRENSA<td><td style="width:30px;"></tr>
+						<tr><td colspan="2" style="background-image:url('http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/Nosotros/preprensa.png');background-repeat: no-repeat; background-size: contain;background-position:center center">&nbsp;<td></tr>
+					</table>
+
+				</div> <!-- cd-timeline-content -->
+			</div> <!-- cd-timeline-block -->
+
+			<div class="cd-timeline-block">
+				<div id="cd-timeline-eighth" class="cd-timeline-img is-hidden"
+					data-anchor-target="#cd-timeline-seventh"
+					data-start="@class:cd-timeline-img is-hidden"
+					data-center="@class:cd-timeline-img bounce-in" data-emit-events>
+					<div align="center" class="cd-timeline-inner">8</div>
+				</div> <!-- cd-timeline-img -->
+
+				<div class="cd-timeline-content is-hidden" align="right"
+					data-anchor-target="#cd-timeline-seventh"
+					data-start="@class:cd-timeline-content is-hidden"
+					data-center="@class:cd-timeline-content bounce-in" data-emit-events>
+					<table width="60%" height="100%">
+						<tr><td style="width:30px;">&nbsp;</td><td align="center" style="height: 30%; border-bottom: 3px dotted black; font-family: nexa; font-size: 1.4vw;">PRENSA CALIENTE<td><td style="width:30px;"></tr>
+						<tr><td colspan="4" style="background-image:url('http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/Nosotros/prensa.png');background-repeat: no-repeat; background-size: contain;background-position:right center">&nbsp;<td></tr>
+					</table>
+				</div> <!-- cd-timeline-content -->
+			</div> <!-- cd-timeline-block -->
+
+			<div class="cd-timeline-block">
+				<div id="cd-timeline-nineth" class="cd-timeline-img is-hidden"
+					data-anchor-target="#cd-timeline-eighth"
+					data-start="@class:cd-timeline-img is-hidden"
+					data-center="@class:cd-timeline-img bounce-in" data-emit-events>
+					<div align="center" class="cd-timeline-inner">9</div>
+				</div> <!-- cd-timeline-img -->
+
+				<div class="cd-timeline-content is-hidden"
+					data-anchor-target="#cd-timeline-eighth"
+					data-start="@class:cd-timeline-content is-hidden"
+					data-center="@class:cd-timeline-content bounce-in" data-emit-events>
+					<table width="60%" height="100%">
+						<tr><td style="width:30px;">&nbsp;</td><td align="center" style="height: 30%; border-bottom: 3px dotted black; font-family: nexa; font-size: 1.4vw;">DIMENSIONADO<td><td style="width:30px;"></tr>
+						<tr><td colspan="2" style="background-image:url('http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/Nosotros/dimensionado.png');background-repeat: no-repeat; background-size: contain;background-position:center center">&nbsp;<td></tr>
+					</table>
+
+				</div> <!-- cd-timeline-content -->
+			</div> <!-- cd-timeline-block -->
+
+			<div class="cd-timeline-block">
+				<div id="cd-timeline-tenth" class="cd-timeline-img is-hidden"
+					data-anchor-target="#cd-timeline-nineth"
+					data-start="@class:cd-timeline-img is-hidden"
+					data-center="@class:cd-timeline-img bounce-in" data-emit-events>
+					<div align="center" class="cd-timeline-inner">10</div>
+				</div> <!-- cd-timeline-img -->
+
+				<div class="cd-timeline-content is-hidden" align="right"
+					data-anchor-target="#cd-timeline-nineth"
+					data-start="@class:cd-timeline-content is-hidden"
+					data-center="@class:cd-timeline-content bounce-in" data-emit-events>
+					<table width="60%" height="100%">
+						<tr><td style="width:30px;">&nbsp;</td><td align="center" style="height: 30%; border-bottom: 3px dotted black; font-family: nexa; font-size: 1.4vw;">ENFRIADO<td><td style="width:30px;"></tr>
+						<tr><td colspan="3" style="background-image:url('http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/Nosotros/enfriado.png');background-repeat: no-repeat; background-size: contain;background-position:center center">&nbsp;<td></tr>
+					</table>
+
+				</div> <!-- cd-timeline-content -->
+
+			</div> <!-- cd-timeline-block -->
+
+			<div class="cd-timeline-block" style="margin-top: 10%;">
+				<div id="cd-timeline-textone" class="cd-timeline-img is-hidden cd-timeline-alt"
+					data-anchor-target="#cd-timeline-tenth"
+					data-start="@class:cd-timeline-img cd-timeline-alt is-hidden"
+					data-center="@class:cd-timeline-img cd-timeline-alt bounce-in" data-emit-events style="border-radius: 0%; background-color:#3D5B58; color: white; box-shadow: unset; width: 26%;">
+					<div align="center" class="cd-timeline-inner" style="width:inherit;font-size:1.4vw" align="center">EL MDF DESNUDO ESTÁ LISTO</div>
+				</div> <!-- cd-timeline-img -->
+				<div class="cd-timeline-content is-hidden" align="right"
+					data-anchor-target="#cd-timeline-tenth"
+					data-start="@class:cd-timeline-content is-hidden"
+					data-center="@class:cd-timeline-content bounce-in" data-emit-events>
+
+				</div> <!-- cd-timeline-content -->
+			</div> <!-- cd-timeline-block -->
+			<div class="cd-timeline-block">
+			</div> <!-- cd-timeline-block -->
+
+			<div class="cd-timeline-block">
+				<div id="cd-timeline-eleventh" class="cd-timeline-img is-hidden"
+					data-anchor-target="#cd-timeline-textone"
+					data-start="@class:cd-timeline-img is-hidden"
+					data-center="@class:cd-timeline-img bounce-in" data-emit-events>
+					<div align="center" class="cd-timeline-inner">11</div>
+				</div> <!-- cd-timeline-img -->
+
+				<div class="cd-timeline-content is-hidden"
+					data-anchor-target="#cd-timeline-textone"
+					data-start="@class:cd-timeline-content is-hidden"
+					data-center="@class:cd-timeline-content bounce-in" data-emit-events>
+					<table width="60%" height="100%">
+						<tr><td style="width:30px;">&nbsp;</td><td align="center" style="height: 30%; border-bottom: 3px dotted black; font-family: nexa; font-size: 1.4vw;">LIJADO<td><td style="width:30px;"></tr>
+						<tr><td colspan="2" style="background-image:url('http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/Nosotros/lijado.png');background-repeat: no-repeat; background-size: contain;background-position:center center">&nbsp;<td></tr>
+					</table>
+
+				</div> <!-- cd-timeline-content -->
+			</div> <!-- cd-timeline-block -->
+
+			<div class="cd-timeline-block" style="margin-top: 10%;">
+				<div id="cd-timeline-texttwo" class="cd-timeline-img is-hidden cd-timeline-alt"
+					data-anchor-target="#cd-timeline-eleventh"
+					data-start="@class:cd-timeline-img cd-timeline-alt is-hidden"
+					data-center="@class:cd-timeline-img cd-timeline-alt bounce-in" data-emit-events style="border-radius: 0%; background-color:#3D5B58; color: white; box-shadow: unset; width: 26%;">
+					<div align="center" class="cd-timeline-inner" style="width:inherit;font-size:1.4vw" align="center">MELAMINA</div>
+				</div> <!-- cd-timeline-img -->
+				<div class="cd-timeline-content is-hidden" align="right"
+					data-anchor-target="#cd-timeline-eleventh"
+					data-start="@class:cd-timeline-content is-hidden"
+					data-center="@class:cd-timeline-content bounce-in" data-emit-events>
+
+				</div> <!-- cd-timeline-content -->
+			</div> <!-- cd-timeline-block -->
+			<div class="cd-timeline-block">
+			</div> <!-- cd-timeline-block -->
+
+			<div class="cd-timeline-block">
+				<div id="cd-timeline-twelveth" class="cd-timeline-img is-hidden"
+					data-anchor-target="#cd-timeline-texttwo"
+					data-start="@class:cd-timeline-img is-hidden"
+					data-center="@class:cd-timeline-img bounce-in" data-emit-events>
+					<div align="center" class="cd-timeline-inner">12</div>
+				</div> <!-- cd-timeline-img -->
+
+				<div class="cd-timeline-content is-hidden" align="right"
+					data-anchor-target="#cd-timeline-texttwo"
+					data-start="@class:cd-timeline-content is-hidden"
+					data-center="@class:cd-timeline-content bounce-in" data-emit-events>
+					<table width="60%" height="100%">
+						<tr><td style="width:30px;">&nbsp;</td><td align="center" style="height: 30%; border-bottom: 3px dotted black; font-family: nexa; font-size: 1.4vw;">PAPEL<td><td style="width:30px;"></tr>
+						<tr><td colspan="3" style="background-image:url('http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/Nosotros/papel.png');background-repeat: no-repeat; background-size: contain;background-position:center center">&nbsp;<td></tr>
+					</table>
+				</div> <!-- cd-timeline-content -->
+			</div> <!-- cd-timeline-block -->
+
+			<div class="cd-timeline-block">
+				<div id="cd-timeline-thirteenth" class="cd-timeline-img is-hidden"
+					data-anchor-target="#cd-timeline-twelveth"
+					data-start="@class:cd-timeline-img is-hidden"
+					data-center="@class:cd-timeline-img bounce-in" data-emit-events>
+					<div align="center" class="cd-timeline-inner">13</div>
+				</div> <!-- cd-timeline-img -->
+
+				<div class="cd-timeline-content is-hidden"
+					data-anchor-target="#cd-timeline-twelveth"
+					data-start="@class:cd-timeline-content is-hidden"
+					data-center="@class:cd-timeline-content bounce-in" data-emit-events>
+					<table width="60%" height="100%">
+						<tr><td style="width:30px;">&nbsp;</td><td align="center" style="height: 30%; border-bottom: 3px dotted black; font-family: nexa; font-size: 1.4vw;">PRESIÓN<td><td style="width:30px;"></tr>
+						<tr><td colspan="2" style="background-image:url('http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/Nosotros/presion.png');background-repeat: no-repeat; background-size: contain;background-position:center center">&nbsp;<td></tr>
+					</table>
+
+				</div> <!-- cd-timeline-content -->
+			</div> <!-- cd-timeline-block -->
+
+			<div class="cd-timeline-block">
+				<div id="cd-timeline-fourteenth" class="cd-timeline-img is-hidden"
+					data-anchor-target="#cd-timeline-thirteenth"
+					data-start="@class:cd-timeline-img is-hidden"
+					data-center="@class:cd-timeline-img bounce-in" data-emit-events>
+					<div align="center" class="cd-timeline-inner">14</div>
+				</div> <!-- cd-timeline-img -->
+
+				<div class="cd-timeline-content is-hidden" align="right"
+					data-anchor-target="#cd-timeline-thirteenth"
+					data-start="@class:cd-timeline-content is-hidden"
+					data-center="@class:cd-timeline-content bounce-in" data-emit-events>
+					<table width="60%" height="100%">
+						<tr><td style="width:30px;">&nbsp;</td><td align="center" style="height: 30%; border-bottom: 3px dotted black; font-family: nexa; font-size: 1.4vw;">PERFILADORA<td><td style="width:30px;"></tr>
+						<tr><td colspan="3" style="background-image:url('http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/Nosotros/perfiladora.png');background-repeat: no-repeat; background-size: contain;background-position:center center">&nbsp;<td></tr>
+					</table>
+				</div> <!-- cd-timeline-content -->
+			</div> <!-- cd-timeline-block -->
+
+			<div class="cd-timeline-block">
+				<div id="cd-timeline-fifteenth" class="cd-timeline-img is-hidden"
+					data-anchor-target="#cd-timeline-fourteenth"
+					data-start="@class:cd-timeline-img is-hidden"
+					data-center="@class:cd-timeline-img bounce-in" data-emit-events>
+					<div align="center" class="cd-timeline-inner">15</div>
+				</div> <!-- cd-timeline-img -->
+
+				<div class="cd-timeline-content is-hidden"
+					data-anchor-target="#cd-timeline-fourteenth"
+					data-start="@class:cd-timeline-content is-hidden"
+					data-center="@class:cd-timeline-content bounce-in" data-emit-events>
+					<table width="60%" height="100%">
+						<tr><td style="width:30px;">&nbsp;</td><td align="center" style="height: 30%; border-bottom: 3px dotted black; font-family: nexa; font-size: 1.4vw;">EMABLAJE<td><td style="width:30px;"></tr>
+						<tr><td colspan="2" style="background-image:url('http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/Nosotros/embalaje.png');background-repeat: no-repeat; background-size: contain;background-position:center center">&nbsp;<td></tr>
+					</table>
+
+				</div> <!-- cd-timeline-content -->
+			</div> <!-- cd-timeline-block -->
+		</div>
+	</section>
+	<section id="galeria" class="homeSlide">
+		<div align="left" class="title_underline" style="font-size: 1.5vw;">LA PLANTA MDF<br/><b>_</b></div>
+		<div class="cd-slider-wrapper bcg" style="height:80%">
+				<ul style="list-style: outside none none; padding-left: 0px;" class="cd-slider" data-step1="M1402,800h-2V0h1c0.6,0,1,0.4,1,1V800z" data-step2="M1400,800H379L771.2,0H1399c0.6,0,1,0.4,1,1V800z" data-step3="M1400,800H0V0h1399c0.6,0,1,0.4,1,1V800z" data-step4="M1402,800h-2V0h1c0.6,0,1,0.4,1,1V800z" data-step5="M1400,800H379L771.2,0H1399c0.6,0,1,0.4,1,1V800z" data-step6="M1400,800H0V0h1399c0.6,0,1,0.4,1,1V800z" data-step7="M1400,800H0V0h1399c0.6,0,1,0.4,1,1V800z" data-step8="M-2,800h2V0h-1c-0.6,0-1,0.4-1,1V800z" data-step9="M0,800h1021L628.8,0L1,0C0.4,0,0,0.4,0,1L0,800z" data-step10="M0,800h1400V0L1,0C0.4,0,0,0.4,0,1L0,800z">
+					<li class="visible">
+						<div class="cd-svg-wrapper">
+							<svg viewBox="0 0 1400 800">
+								<defs>
+									<clipPath id="cd-image-1">
+										<path id="cd-changing-path-1" d="M1400,800H0V0h1399c0.6,0,1,0.4,1,1V800z"/>
+									</clipPath>
+								</defs>
+
+								<image height="104%" width="100%" clip-path="url(#cd-image-1)" xlink:href="http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/Nosotros/planta01.jpg"></image>
+							</svg>
+						</div> <!-- .cd-svg-wrapper -->
+					</li>
+
+					<li>
+						<div class="cd-svg-wrapper">
+							<svg viewBox="0 0 1400 800">
+								<defs>
+									<clipPath id="cd-image-2">
+										<path id="cd-changing-path-2" d="M1400,800H0V0h1399c0.6,0,1,0.4,1,1V800z"/>
+									</clipPath>
+								</defs>
+
+								<image height="104%" width="100%" clip-path="url(#cd-image-2)" xlink:href="http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/Nosotros/planta02.jpg"></image>
+							</svg>
+						</div> <!-- .cd-svg-wrapper -->
+					</li>
+
+					<li>
+						<div class="cd-svg-wrapper">
+							<svg viewBox="0 0 1400 800">
+								<defs>
+									<clipPath id="cd-image-3">
+										<path id="cd-changing-path-3" d="M1400,800H0V0h1399c0.6,0,1,0.4,1,1V800z"/>
+									</clipPath>
+								</defs>
+
+								<image height="104%" width="100%" clip-path="url(#cd-image-3)" xlink:href="http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/Nosotros/planta03.jpg"></image>
+							</svg>
+						</div> <!-- .cd-svg-wrapper -->
+					</li>
+
+					<li>
+						<div class="cd-svg-wrapper">
+							<svg viewBox="0 0 1400 800">
+								<defs>
+									<clipPath id="cd-image-4">
+										<path id="cd-changing-path-4" d="M1400,800H0V0h1399c0.6,0,1,0.4,1,1V800z"/>
+									</clipPath>
+								</defs>
+
+								<image height="104%" width="100%" clip-path="url(#cd-image-4)" xlink:href="http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/Nosotros/planta04.jpg"></image>
+							</svg>
+						</div> <!-- .cd-svg-wrapper -->
+					</li>
+					<li>
+						<div class="cd-svg-wrapper">
+							<svg viewBox="0 0 1400 800">
+								<defs>
+									<clipPath id="cd-image-5">
+										<path id="cd-changing-path-5" d="M1400,800H0V0h1399c0.6,0,1,0.4,1,1V800z"/>
+									</clipPath>
+								</defs>
+
+								<image height="104%" width="100%" clip-path="url(#cd-image-5)" xlink:href="http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/Nosotros/planta05.jpg"></image>
+							</svg>
+						</div> <!-- .cd-svg-wrapper -->
+					</li>
+
+					<li>
+						<div class="cd-svg-wrapper">
+							<svg viewBox="0 0 1400 800">
+								<defs>
+									<clipPath id="cd-image-6">
+										<path id="cd-changing-path-6" d="M1400,800H0V0h1399c0.6,0,1,0.4,1,1V800z"/>
+									</clipPath>
+								</defs>
+
+								<image height="104%" width="100%" clip-path="url(#cd-image-6)" xlink:href="http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/Nosotros/planta06.jpg"></image>
+							</svg>
+						</div> <!-- .cd-svg-wrapper -->
+					</li>
+
+					<li>
+						<div class="cd-svg-wrapper">
+							<svg viewBox="0 0 1400 800">
+								<defs>
+									<clipPath id="cd-image-7">
+										<path id="cd-changing-path-7" d="M1400,800H0V0h1399c0.6,0,1,0.4,1,1V800z"/>
+									</clipPath>
+								</defs>
+
+								<image height="104%" width="100%" clip-path="url(#cd-image-7)" xlink:href="http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/Nosotros/planta07.jpg"></image>
+							</svg>
+						</div> <!-- .cd-svg-wrapper -->
+					</li>
+
+					<li>
+						<div class="cd-svg-wrapper">
+							<svg viewBox="0 0 1400 800">
+								<defs>
+									<clipPath id="cd-image-8">
+										<path id="cd-changing-path-8" d="M1400,800H0V0h1399c0.6,0,1,0.4,1,1V800z"/>
+									</clipPath>
+								</defs>
+
+								<image height="104%" width="100%" clip-path="url(#cd-image-8)" xlink:href="http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/Nosotros/planta08.jpg"></image>
+							</svg>
+						</div> <!-- .cd-svg-wrapper -->
+					</li>
+
+				</ul> <!-- .cd-slider -->
+
+				<ul style="list-style:none" class="cd-slider-navigation">
+					<li><a href="#0" class="next-slide">Next</a></li>
+					<li><a href="#0" class="prev-slide">Prev</a></li>
+				</ul> <!-- .cd-slider-navigation -->
+
+				<ol style="list-style:none" class="cd-slider-controls">
+					<li class="selected"><a href="#0"><em>Item 1</em></a></li>
+					<li><a href="#0"><em>Item 2</em></a></li>
+					<li><a href="#0"><em>Item 3</em></a></li>
+					<li><a href="#0"><em>Item 4</em></a></li>
+					<li><a href="#0"><em>Item 5</em></a></li>
+					<li><a href="#0"><em>Item 6</em></a></li>
+					<li><a href="#0"><em>Item 7</em></a></li>
+					<li><a href="#0"><em>Item 8</em></a></li>
+				</ol> <!-- .cd-slider-controls -->
+		</div> <!-- .cd-slider-wrapper -->
+	</section>
 	<section id="spacer">
-	<div style="height:150px;background-color:#3D5B58">
+	<div style="height:150px">
 	&nbsp;
 	</div>
 	</section>

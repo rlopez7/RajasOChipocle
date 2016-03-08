@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/main.css">
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/menu.css">
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/sections.css">
+	<link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/2a7c968f-f9fa-44a2-823a-a21e3b0a38d4.css"/>
 	<script src="<?php bloginfo('template_url'); ?>/js/vendor/modernizr-2.7.1.min.js"></script>
 	<style type="text/css">
 		@font-face {
@@ -133,56 +134,54 @@
 </head>
 <body class="loading" data-spy="scroll" data-target=".navbar" >
 <header class="menu" align="center">
-	<nav class="navbar navbar-fixed-top" role="navigation" data-center="height:100%; background-color:rgba(255, 255, 255, 0)" data-center-bottom="height:40%; background-color:rgba(255, 255, 255, 0)" data-top-bottom="height: 5.2vw; background-color:rgba(255, 255, 255, 255)" data-anchor-target="#inicio" style="height:100%">
+	<nav class="navbar navbar-fixed-top" role="navigation" style="height: 7vw; background-color: rgb(255, 255, 255); top: -100%;" data-50-top-bottom="top:0;opacity:1" data-start="top:-100%;opacity:0"  data-anchor-target="#inicio">
 		<a href="#inicio" style="position:relative;float:left;">
-			<img class="logo" border="0" src="<?php bloginfo('template_url'); ?>/img/logo.png" style="opacity:0;height:5.2vw;left:10px;" data-anchor-target="#inicio" data-center="top:-3.5vw;opacity:1" data-top-bottom="top:0px;opacity:1">
+			<img class="logo" border="0" src="<?php bloginfo('template_url'); ?>/img/logo.png" style="opacity: 1; height: 4vw; left: 10%; top: 3vh;">
 		</a>
 
-		<div align="center" style="border:10;width:100%;height:100%" data-anchor-target="#inicio" data-center="padding-left:0%" data-50-top-bottom="padding-left:50%">
-		<table align="center" style="height:100%" data-anchor-target="#inicio" data-center="width:50%;" data-50-top-bottom="width:100%;">
-			<tr style="vertical-align:middle" data-anchor-target="#inicio" data-center="height:100%;" data-50-top-bottom="height:20%;">
+		<div align="center" style="width: 100%; height: 100%; padding-left: 50%;">
+		<table align="center" style="height: 100%; width: 100%;">
+			<tr style="vertical-align:middle;height:20%;">
 				<td class="item">
-					<a href="#inicio" style="text-decoration:none"><div class="menu_item" data-anchor-target="#inicio" data-center="@class:menu_item_active" data-50-top-bottom="@class:menu_item;" data-edge-strategy="reset">&nbsp;&nbsp;INICIO&nbsp;&nbsp;</div></a>
+					<a href="#inicio" style="text-decoration:none"><div class="menu_item_active">&nbsp;&nbsp;INICIO&nbsp;&nbsp;</div></a>
 				</td>
 				<td class="item">
-					<a href="#soluciones" style="text-decoration:none"><div class="menu_item" data-anchor-target="#soluciones" data-center="@class:menu_item_active" data--300-top-bottom="@class:menu_item;" data-edge-strategy="reset">&nbsp;&nbsp;SOLUCIONES EN MDF&nbsp;&nbsp;</div></a>
+					<a href="#soluciones" style="text-decoration:none"><div class="menu_item">&nbsp;&nbsp;SOLUCIONES EN MDF&nbsp;&nbsp;</div></a>
+				</td>
+				<!--<td class="item">
+					<a href="#tendencias" style="text-decoration:none"><div class="menu_item">&nbsp;&nbsp;TENDENCIAS&nbsp;&nbsp;</div></a>
+				</td>-->
+				<td class="item">
+					<a href="#nosotros" style="text-decoration:none"><div class="menu_item">&nbsp;&nbsp;NOSOTROS&nbsp;&nbsp;</div></a>
 				</td>
 				<td class="item">
-					<a href="#tendencias" style="text-decoration:none"><div class="menu_item" data-anchor-target="#tendencias" data-center="@class:menu_item_active" data--300-top-bottom="@class:menu_item;" data-edge-strategy="reset">&nbsp;&nbsp;TENDENCIAS&nbsp;&nbsp;</div></a>
+					<a href="#madera" style="text-decoration:none"><div class="menu_item">&nbsp;&nbsp;NUESTRA MADERA&nbsp;&nbsp;</div></a>
 				</td>
 				<td class="item">
-					<a href="#nosotros" style="text-decoration:none"><div class="menu_item" data-anchor-target="#nosotros" data-center="@class:menu_item_active" data--300-top-bottom="@class:menu_item;" data-edge-strategy="reset">&nbsp;&nbsp;NOSOTROS&nbsp;&nbsp;</div></a>
-				</td>
-				<td class="item">
-					<a href="#madera" style="text-decoration:none"><div class="menu_item" data-anchor-target="#madera" data-center="@class:menu_item_active" data--300-top-bottom="@class:menu_item;" data-edge-strategy="reset">&nbsp;&nbsp;NUESTRA MADERA&nbsp;&nbsp;</div></a>
-				</td>
-				<td class="item">
-					<a href="#descargas" style="text-decoration:none"><div class="menu_item" data-anchor-target="#descargas" data-center="@class:menu_item_active" data--300-top-bottom="@class:menu_item;" data-edge-strategy="reset">&nbsp;&nbsp;DESCARGAS&nbsp;&nbsp;</div></a>
+					<a href="#descargas" style="text-decoration:none"><div class="menu_item">&nbsp;&nbsp;DESCARGAS&nbsp;&nbsp;</div></a>
 				</td><!--
 				<td class="item">
-					<a class="item_inicio" href="#inicio"></a>
+					<a class="item_inicio" href="../#inicio"></a>
 				</td>
 				<td class="item">
-					<a class="item_soluciones" href="#soluciones"></a>
+					<a class="item_soluciones" href="../#soluciones"></a>
 				</td>
 				<td class="item">
-					<a class="item_tendencias" href="#tendencias"></a>
+					<a class="item_tendencias" href="../#tendencias"></a>
 				</td>
 				<td class="item">
-					<a class="item_nosotros" href="#nosotros"></a>
+					<a class="item_nosotros" href="../#nosotros"></a>
 				</td>
 				<td class="item">
-					<a class="item_madera" href="#madera"></a>
+					<a class="item_madera" href="../#madera"></a>
 				</td>
 				<td class="item">
-					<a class="item_descargas" href="#descargas"></a>
+					<a class="item_descargas" href="../#descargas"></a>
 				</td>-->
 			</tr>
 
 		</table>
 		</div>
-		<div align="center" style="position:relative;width:100%;height:0%">
-			<img class="logo" border="0" src="<?php bloginfo('template_url'); ?>/img/logo.png" style="height:8vw;top:-75vh;">
-		</div>
 	</nav>
+	
 </header>

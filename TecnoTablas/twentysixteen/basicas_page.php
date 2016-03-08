@@ -57,13 +57,13 @@ get_header(); */?>
 			/* Firefox */
 			display:-moz-box;
 			-moz-box-pack:center;
-			-moz-box-align:center;	
+			-moz-box-align:center;
 
 			/* Safari, Opera, and Chrome */
 			display:-webkit-box;
 			-webkit-box-pack:center;
 			-webkit-box-align:center;
-	
+
 			/* W3C */
 			display:box;
 			box-pack:center;
@@ -105,25 +105,23 @@ get_header(); */?>
 </head>
 <body class="loading" style="height:100%!important;">
 <header class="menu" align="center">
-	<nav class="navbar navbar-fixed-top" role="navigation" style="height:100% height:20%; background-color:rgba(255, 255, 255, 255)">
-		<table align="center" style="width:50%;height:100%">
-			<tr style="vertical-align:center height:80%;">
-				<td align="center" colspan="6">
-					<a href="../#inicio">
-						<img class="logo" border="0" src="<?php bloginfo('template_url'); ?>/img/logo.png" style="height:6.5vw">
-					</a><br/>
-				<td>
-			</tr>
-			<tr style="vertical-align:top height:20%;">
+	<nav class="navbar navbar-fixed-top" role="navigation" style="height: 7vw; background-color: rgb(255, 255, 255);">
+		<a href="#inicio" style="position:relative;float:left;">
+			<img class="logo" border="0" src="<?php bloginfo('template_url'); ?>/img/logo.png" style="opacity: 1; height: 4vw; left: 10%; top: 3vh;">
+		</a>
+
+		<div align="center" style="width: 100%; height: 100%; padding-left: 50%;">
+		<table align="center" style="height: 100%; width: 100%;">
+			<tr style="vertical-align:middle;height:20%;">
 				<td class="item">
 					<a href="../#inicio" style="text-decoration:none"><div class="menu_item">&nbsp;&nbsp;INICIO&nbsp;&nbsp;</div></a>
 				</td>
 				<td class="item">
 					<a href="../#soluciones" style="text-decoration:none"><div class="menu_item_active">&nbsp;&nbsp;SOLUCIONES EN MDF&nbsp;&nbsp;</div></a>
 				</td>
-				<td class="item">
+				<!--<td class="item">
 					<a href="../#tendencias" style="text-decoration:none"><div class="menu_item">&nbsp;&nbsp;TENDENCIAS&nbsp;&nbsp;</div></a>
-				</td>
+				</td>-->
 				<td class="item">
 					<a href="../#nosotros" style="text-decoration:none"><div class="menu_item">&nbsp;&nbsp;NOSOTROS&nbsp;&nbsp;</div></a>
 				</td>
@@ -131,7 +129,7 @@ get_header(); */?>
 					<a href="../#madera" style="text-decoration:none"><div class="menu_item">&nbsp;&nbsp;NUESTRA MADERA&nbsp;&nbsp;</div></a>
 				</td>
 				<td class="item">
-					<a href="../#descargas" style="text-decoration:none"><div class="menu_item" >&nbsp;&nbsp;DESCARGAS&nbsp;&nbsp;</div></a>
+					<a href="../#descargas" style="text-decoration:none"><div class="menu_item">&nbsp;&nbsp;DESCARGAS&nbsp;&nbsp;</div></a>
 				</td><!--
 				<td class="item">
 					<a class="item_inicio" href="../#inicio"></a>
@@ -151,131 +149,199 @@ get_header(); */?>
 				<td class="item">
 					<a class="item_descargas" href="../#descargas"></a>
 				</td>-->
-
 			</tr>
 
 		</table>
+		</div>
 	</nav>
 </header>
-<main style="padding-top: 8.5%">
+<main style="overflow:hidden;padding-top: 8.5%">
 	<section id="slide1" class="homeSlide">
-		<div class="bcg" style="background: transparent url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/basicas/element-04.png) no-repeat center center / cover fixed; font-family: nexa; font-size: 5vh; color: white; line-height: 6vh; overflow: auto;" data-top="background-position: 50% 0px;" data-top-bottom="background-position: 50% 100px;" data-anchor-target="#slide1">
-			<div style="height:100%" data-top="background-color:rgba(255, 255, 255, 0);" data-top-bottom="background-color:rgba(255, 255, 255, 0.8);" data-anchor-target="#slide1">
-			<div style="background-color: rgb(45, 79, 76); font-family: nexa; font-size: 5vh; padding-left: 5%; color: white; line-height: 1.2; height: 20vh;"><p class="centerText" style="height:100%;">SOLUCIONES</br><b>BÁSICAS</b></p></div>
-			<div style="font-family: nexa; font-size: 2.2vw; padding-left: 5%; line-height: 1.2;">
-			</br>Distingue tu trabajo con nuestros tableros</br>de fibra de mediana densidad desnudos.</br></br>
-			Hechos de madera directa del tronco,</br>aportan características incomparables</br>
-			para la industria del mueble al ser</br> resistentes y homogéneos.</br></br></div>
-			</div>
+		<div align="left" class="title_underline" style="font-size: 1.6vw;">SOLUCIONES BÁSICAS<br/><b>_</b></div>
+		<div class="bcg" style="background: transparent url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/soluciones-basicas.jpg) no-repeat center center / cover; font-family: nexa; font-size: 1.5vw; color: black; line-height: 6vh; overflow: hidden;" data-top="background-position: 50% 0px;" data-top-bottom="background-position: 50% 100px;" data-anchor-target="#slide1">
+			<table height="100%" width="100%">
+				<tr style="background-image: url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/basicas/bg-bco.png); background-repeat: no-repeat; background-position: left bottom; background-size: auto 100%;" data-start="opacity:0"
+						data-center="opacity:1" data-anchor-target="#slide1">
+				<td style="padding-top: 50px; padding-bottom: 50px; padding-left: 5%;">
+					<div id="text" >
+						Distingue tu trabajo con nuestros tableros</br>de fibra de mediana densidad desnudos.</br></br>
+						Hechos de madera directa del tronco,</br>aportan características incomparables</br>
+						para la industria del mueble al ser</br> resistentes y homogéneos.</br></br></div>
+				</div>
+					</td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+				</tr>
+			</table>
+
 		</div>
 	</section>
-	<section id="plecaEstandar">
-	<div style="background-color: #2D4F4C; background:url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/basicas/plecaInv.png) no-repeat #2D4F4C left 15vh / auto 35vw;  background-attachment: fixed; font-family: nexa; font-size: 5vh; color:white; font-weight:bold; height: 20vh;" align="center"><p class="centerText" style="height:100%;">ESTÁNDAR</p></div>
-	</section>
+
+	<!--section id="plecaEstandar">
+		<div><p class="centerText" style="height:100%;">ESTÁNDAR</p></div>
+	</section-->
 	<section id="slideEstandar" class="homeSlide">
-	
-		<table style="width:100%; height:100%;" rowpadding="0" rowspacing="0">
+
+		<table style="width:100%; height:100%;background-color:white;" rowpadding="0" rowspacing="0"     >
 			<tr>
-			<td style="font-family: nexa; font-size: 1.3vw; padding-left:5%;color:#2D4F4C;line-height:1.2;height:34%">
+			<td style="font-family: nexa; font-size: 1.3vw; padding-left:5%;color:#8E847B;line-height:1.2;height:34%">
+				</br></br><p style="font-size: 1.5vw;color:black" >ESTÁNDAR</p></br></br>
 				TecnoTabla Estándar es un MDF desnudo fabricado con</br>
 				la más alta tecnología, madera directa del tronco y </br>
 				densidad de 680-750kg/m&sup3;</br></br>
 				Es el tablero experto con múltiples características de </br>
 				uso para proyectos que trascienden.
 			</td>
-			<td rowspan ="3" style="width: 50%; background: transparent url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/basicas/element-05.png) no-repeat fixed right center / auto 100%;"></td>
-			</tr>
-			<tr>
-			<td style="font-family: nexa; font-size: 1.5vw; padding-left:5%;color:#2D4F4C;line-height:1.2;;height:33%">
-				<b>CARACTERÍSTICAS</b>
-				<table style="width:80%;height:60%">
+			<td rowspan ="3" style="width: 50%; height:100%">
+			<div style="background: transparent url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/Nosotros/como.png) no-repeat fixed right center / auto 100%;position:relative;height:70%;width:70%;left:15%;" >
+			</div></br>&nbsp;
+			<table style="width:100%;height:20%; font-family: nexa; font-size: 1.5vw;color:#8E847B;">
 					<tr class="tb1">
-						<td style="background: transparent url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/basicas/element-52.png) no-repeat center center/ contain; width:25%; height:50%; position:relative;"  data-bottom="top:100px" data--100-center="top:0px" data-anchor-target="#slideEstandar .tb1">
+<td style="width:25%"></td>
+						<td style="background: transparent url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/basicas/download.png) no-repeat center center/ 40%; width:14%; height:50%; position:relative;"  data-start="opacity:0" data-100-center="opacity:1" data-anchor-target="#slideEstandar .tb1">
 						</td>
-						<td style="background: transparent url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/basicas/element-53.png) no-repeat center center / contain; width:25%; height:50%; position:relative;" data-bottom="top:80px" data--100-center="top:0px" data-anchor-target="#slideEstandar .tb1">
+						<td style="background: transparent url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/basicas/sample.png) no-repeat center center / 40%;width:14%; height:50%; position:relative;" data-start="opacity:0" data-100-center="opacity:1" data-anchor-target="#slideEstandar .tb1">
 						</td>
-						<td style="background: transparent url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/basicas/element-54.png) no-repeat center center / contain; width:25%; height:50%; position:relative;" data-bottom="top:60px" data--100-center="top:0px" data-anchor-target="#slideEstandar .tb1">
+						<td style="background: transparent url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/basicas/info.png) no-repeat center center / 40%;width:14%; height:50%; position:relative;" data-start="opacity:0" data-100-center="opacity:1" data-anchor-target="#slideEstandar .tb1">
 						</td>
-						<td style="background: transparent url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/basicas/element-55.png) no-repeat center center / contain; width:25%; height:50%; position:relative;" data-bottom="top:40px" data--100-center="top:0px" data-anchor-target="#slideEstandar .tb1">
-						</td>
+<td style="width:10%"></td>
 					</tr>
 					<tr>
-						<td style="font-size:.7em; position:relative;" align="center" data-bottom="top:100px" data-center="top:0px" data-anchor-target="#slideEstandar .tb1">Superficie </br><b>homogénea</b></td>
-						<td style="font-size:.7em; position:relative;;" align="center" data-bottom="top:80px" data--100-center="top:0px" data-anchor-target="#slideEstandar .tb1">Resistente</td>
-						<td style="font-size:.7em; position:relative;" align="center" data-bottom="top:60px" data--100-center="top:0px" data-anchor-target="#slideEstandar .tb1">Amable con </br><b>tus herramientas</b></td>
-						<td style="font-size:.7em; position:relative;" align="center" data-bottom="top:40px" data--100-center="top:0px" data-anchor-target="#slideEstandar .tb1">Limpieza </br><b>de corte</b></td>
+<td style="width:10%"></td>
+						<td style="font-size:.7em; position:relative;" align="center" data-start="opacity:0" data-100-center="opacity:1" data-anchor-target="#slideEstandar .tb1">Descargar </br><b>ficha técnica</b></td>
+						<td style="font-size:.7em; position:relative;;" align="center" data-start="opacity:0" data-100-center="opacity:1" data-anchor-target="#slideEstandar .tb1">Solicita </br><b>muestra</b></td>
+						<td style="font-size:.7em; position:relative;" align="center" data-start="opacity:0" data-100-center="opacity:1" data-anchor-target="#slideEstandar .tb1">¿Cómo </br><b>lo hacemos?</b></td>
+<td style="width:10%"></td>
+					</tr>
+				</table>
+
+			</td>
+			</tr>
+			<tr>
+			<td style="font-family: nexa; font-size: 1.5vw; padding-left:5%;color:#8E847B;line-height:1.2;;height:33%">
+				<p style="color:black">CARACTERÍSTICAS</br>&nbsp;</p>
+				<table style="width:80%;height:60%">
+					<tr class="tb1">
+						<td style="background: transparent url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/basicas/element-52.png) no-repeat center center/ 40%; width:25%; height:50%; position:relative;"  data-start="opacity:0" data-100-center="opacity:1" data-anchor-target="#slideEstandar .tb1">
+						</td>
+						<td style="background: transparent url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/basicas/element-53.png) no-repeat center center / 40%; width:25%; height:50%; position:relative;" data-start="opacity:0" data-100-center="opacity:1" data-anchor-target="#slideEstandar .tb1">
+						</td>
+						<td style="background: transparent url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/basicas/element-54.png) no-repeat center center / 40%; width:25%; height:50%; position:relative;" data-start="opacity:0" data-100-center="opacity:1" data-anchor-target="#slideEstandar .tb1">
+						</td>
+						<td style="background: transparent url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/basicas/element-55.png) no-repeat center center / 40%; width:25%; height:50%; position:relative;" data-start="opacity:0" data-100-center="opacity:1" data-anchor-target="#slideEstandar .tb1">
+						</td>
+
+					</tr>
+					<tr>
+						<td style="font-size:.7em; position:relative;" align="center" data-start="opacity:0" data-100-center="opacity:1" data-anchor-target="#slideEstandar .tb1">Superficie </br><b>homogénea</b></td>
+						<td style="font-size:.7em; position:relative;;" align="center" data-start="opacity:0" data-100-center="opacity:1" data-anchor-target="#slideEstandar .tb1">Resistente</td>
+						<td style="font-size:.7em; position:relative;" align="center" data-start="opacity:0" data-100-center="opacity:1" data-anchor-target="#slideEstandar .tb1">Amable con </br><b>tus herramientas</b></td>
+						<td style="font-size:.7em; position:relative;" align="center" data-start="opacity:0" data-100-center="opacity:1" data-anchor-target="#slideEstandar .tb1">Limpieza </br><b>de corte</b></td>
+
 					</tr>
 				</table>
 			</td>
 			</tr>
 			<tr>
-			<td style="font-family: nexa; font-size: 1.5vw; padding-left:5%;color:#2D4F4C;line-height:1.2;;height:33%">
-				<b>APLICACIONES</b>
-				<ul>
-				<li style="width: auto; float: left;">MOBILIARIO DE HOGAR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
-				<li style="width: auto; float: left;">ESTANTERÍA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
-				<li style="width: auto; float: left;">MOLDURAS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
-				<li style="width: auto; float: left;"></li>
-				<li style="width: auto; float: left;">MARCOS DE PUERTAS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
-				<li style="width: auto; float: left;">PUERTAS DE ARMARIOS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
-				<li style="width: auto; float: left;"></li>
-				<li style="width: auto; float: left;">REVESTIMIENTO DE PAREDES&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
-				<li style="width: auto; float: left;"></li>
+			<td style="font-family: nexa; font-size: 1.5vw; padding-left:5%;color:#8E847B;line-height:1.2;;height:33%">
+				<p style="color:black">APLICACIONES</p></br>&nbsp;
+				<ul style="columns: 2; -webkit-columns: 2; -moz-columns: 2; padding-left:unset; list-style-type: disc;">
+				<li style="display: list-item; list-style-type: disc;">mobiliario de hogar </li>
+				<li style="display: list-item; list-style-type: disc;">estantería  </li>
+				<li style="display: list-item; list-style-type: disc;">molduras  </li>
+				<li style="display: list-item; list-style-type: disc;">marcos de puertas  </li>
+				<li style="display: list-item; list-style-type: disc;">puertas de armarios  </li>
+				<li style="display: list-item; list-style-type: disc;">revestimiento de paredes  </li>
 				</ul>
 			</td>
 			</tr>
 	        </table>
 	</section>
-	<section id="plecaLigero">
-	<div style="background-color: #2D4F4C; background:url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/basicas/pleca.png) no-repeat #2D4F4C right 15vh / auto 35vw;  background-attachment: fixed; font-family: nexa; font-size: 5vh; color:white; font-weight:bold; height: 20vh;" align="center"><p class="centerText" style="height:100%;">LIGERO</p></div>
+	<!--section id="plecaLigero">
+	<div style="background-color: #2D4F4C; background:url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/basicas/pleca.png) no-repeat #2D4F4C right 15vh / auto 35vw;  background-attachment: fixed; font-family: nexa; font-size: 5vh; color:white; height: 20vh;" align="center"><p style="height:100%;">LIGERO</p></div>
+	</section-->
+	<section id="spacer">
+	<div style="height:150px">
+	&nbsp;
+	</div>
 	</section>
 	<section id="slideLigero" class="homeSlide">
 		<table style="width:100%; height:100%;" rowpadding="0" rowspacing="0">
 			<tr>
-			<td rowspan ="3" style="width: 50%; background: transparent url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/basicas/element-05.png) no-repeat fixed left center / auto 100%;"></td>
-			<td style="font-family: nexa; font-size: 1.3vw; padding-left:5%;color:#2D4F4C;line-height:1.2;height:34%">
+			<td rowspan ="3" style="width: 50%;">
+
+				<div style="background: transparent url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/Nosotros/como.png) no-repeat fixed left center / auto 100%;position:relative;height:70%;width:70%;left:15%;" >
+
+			</div></br>&nbsp;
+				<table style="width:100%;height:20%;font-family: nexa; font-size: 1.5vw;color:#8E847B;">
+					<tr class="tb1">
+<td style="width:10%"></td>
+						<td style="background: transparent url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/basicas/download.png) no-repeat center center/ 40%; width:14%; height:50%; position:relative;"  data-start="opacity:0" data-100-center="opacity:1" data-anchor-target="#slideEstandar .tb1">
+						</td>
+						<td style="background: transparent url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/basicas/sample.png) no-repeat center center / 40%;width:14%; height:50%; position:relative;" data-start="opacity:0" data-100-center="opacity:1" data-anchor-target="#slideEstandar .tb1">
+						</td>
+						<td style="background: transparent url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/basicas/info.png) no-repeat center center / 40%;width:14%; height:50%; position:relative;" data-start="opacity:0" data-100-center="opacity:1" data-anchor-target="#slideEstandar .tb1">
+						</td>
+<td style="width:25%"></td>
+					</tr>
+					<tr>
+<td style="width:10%"></td>
+						<td style="font-size:.7em; position:relative;" align="center" data-start="opacity:0" data-100-center="opacity:1" data-anchor-target="#slideEstandar .tb1">Descargar </br><b>ficha técnica</b></td>
+						<td style="font-size:.7em; position:relative;;" align="center" data-start="opacity:0" data-100-center="opacity:1" data-anchor-target="#slideEstandar .tb1">Solicita </br><b>muestra</b></td>
+						<td style="font-size:.7em; position:relative;" align="center" data-start="opacity:0" data-100-center="opacity:1" data-anchor-target="#slideEstandar .tb1">¿Cómo </br><b>lo hacemos?</b></td>
+<td style="width:10%"></td>
+					</tr>
+				</table>
+
+			</td>
+			<td style="font-family: nexa; font-size: 1.3vw; padding-left:5%;color:#8E847B;line-height:1.2;height:34%">
+				</br></br><p style="font-size: 1.5vw;color:black">LIGERO</p></br></br>
 				TecnoTabla Ligero es un tablero de MDF con densidad entre 590-640 </br>
-				kg/m3, la solución perfecta cuando son necesarios tableros muy</br>
+				kg/m&sup3;, la solución perfecta cuando son necesarios tableros muy</br>
 				ligeros y manejables. Ideal para espacios en dónde la resistencia</br>
 				mecánica no es el elemento más importante.</br>
 			</td>
 			</tr>
 			<tr>
-			<td style="font-family: nexa; font-size: 1.5vw; padding-left:5%;color:#2D4F4C;line-height:1.2;;height:33%">
-				<b>CARACTERÍSTICAS</b>
+			<td style="font-family: nexa; font-size: 1.5vw; padding-left:5%;color:#8E847B;line-height:1.2;;height:33%">
+				<p style="color:black">CARACTERÍSTICAS</br>&nbsp;</p>
 				<table style="width:80%;height:60%">
 					<tr class="tb2">
-						<td style="background: transparent url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/basicas/element-52.png) no-repeat center center/ contain; width:25%; height:50%; position:relative;"  data-bottom="top:40px" data--100-center="top:0px" data-anchor-target="#slideLigero .tb2">
+						<td style="background: transparent url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/basicas/element-52.png) no-repeat center center/ 40%; width:25%; height:50%; position:relative;"  data-start="opacity:0" data-100-center="opacity:1" data-anchor-target="#slideLigero .tb2">
 						</td>
-						<td style="background: transparent url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/basicas/element-54.png) no-repeat center center/ contain; width:25%; height:50%; position:relative;"  data-bottom="top:60px" data--100-center="top:0px" data-anchor-target="#slideLigero .tb2">
+						<td style="background: transparent url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/basicas/element-54.png) no-repeat center center/ 40%; width:25%; height:50%; position:relative;"  data-start="opacity:0" data-100-center="opacity:1" data-anchor-target="#slideLigero .tb2">
 						</td>
-						<td style="background: transparent url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/basicas/element-61.png) no-repeat center center/ contain; width:25%; height:50%; position:relative;"  data-bottom="top:80px" data--100-center="top:0px" data-anchor-target="#slideLigero .tb2">
+						<td style="background: transparent url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/basicas/element-61.png) no-repeat center center/ 40%; width:25%; height:50%; position:relative;"  data-start="opacity:0" data-100-center="opacity:1" data-anchor-target="#slideLigero .tb2">
 						</td>
-						<td style="background: transparent width:25%; height:50%; position:relative;"  data-bottom="top:80px" data--100-center="top:0px" data-anchor-target="#slideLigero .tb2">
+						<td style="background: transparent width:25%; height:50%; position:relative;"  data-start="opacity:0" data-100-center="opacity:1" data-anchor-target="#slideLigero .tb2">
 						</td>
 					</tr>
 					<tr>
-						<td style="font-size:.7em; position:relative;"  data-bottom="top:40px" data--100-center="top:0px" data-anchor-target="#slideLigero .tb2" align="center">Superficie </br><b>homogénea</b></td>
-						<td style="font-size:.7em; position:relative;"  data-bottom="top:60px" data--100-center="top:0px" data-anchor-target="#slideLigero .tb2" align="center">Amable con </br><b>tus herramientas</b></td>
-						<td style="font-size:.7em; position:relative;"  data-bottom="top:80px" data--100-center="top:0px" data-anchor-target="#slideLigero .tb2" align="center">Ligero</b></td>
+						<td style="font-size:.7em; position:relative;" data-start="opacity:0" data-100-center="opacity:1" data-anchor-target="#slideLigero .tb2" align="center">Superficie </br><b>homogénea</b></td>
+						<td style="font-size:.7em; position:relative;" data-start="opacity:0" data-100-center="opacity:1" data-anchor-target="#slideLigero .tb2" align="center">Amable con </br><b>tus herramientas</b></td>
+						<td style="font-size:.7em; position:relative;" data-start="opacity:0" data-100-center="opacity:1" data-anchor-target="#slideLigero .tb2" align="center">Ligero</b></td>
 					</tr>
 				</table>
 			</td>
 			</tr>
 			<tr>
-			<td style="font-family: nexa; font-size: 1.5vw; padding-left:5%;color:#2D4F4C;line-height:1.2;;height:33%">
-				<b>APLICACIONES</b>
-				<ul>
-				<li style="width: auto; float: left;">MONTAJE DE EXPOSICIONES&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
-				<li style="width: auto; float: left;">MAMPARAS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
-				<li style="width: auto; float: left;"></li>
-				<li style="width: auto; float: left;">SEPARACIONES INTERNAS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
-				<li style="width: auto; float: left;">TECHOS FALSOS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
-				<li style="width: auto; float: left;"></li>
+			<td style="font-family: nexa; font-size: 1.5vw; padding-left:5%;color:#8E847B;line-height:1.2;;height:33%">
+				<p style="color:black">APLICACIONES</p></br>&nbsp;
+				<ul style="columns: 2; -webkit-columns: 2; -moz-columns: 2; padding-left:unset">
+				<li style="display: list-item">montaje de exposiciones</li>
+				<li style="display: list-item">separaciones internas</li>
+				<li style="display: list-item">mamparas</li>
+				<li style="display: list-item">techos falsos</li>
 				</ul>
 			</td>
 			</tr>
 	        </table>
+	</section>
+	<section id="spacer">
+	<div style="height:150px">
+	&nbsp;
+	</div>
 	</section>
 </main>
 

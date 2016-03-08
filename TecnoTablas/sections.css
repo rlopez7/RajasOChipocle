@@ -1,0 +1,366 @@
+#inicino .bcg{
+	background-image:url('../img/bg1_white.png')
+}
+
+#soluciones .bcg{
+	/*background-image:url('../img/bg1_white.png')*/
+}
+#tendencias .bcg{
+	/*background-image:url('../img/bg.png')*/
+}
+#nosotros .bcg{
+	/*background-image:url('../img/bg_nosotros_white.png')*/
+}
+
+
+
+.buttonsSoluciones{
+	width:100%;	
+	margin: 0 auto 0 auto;	
+}
+
+.buttonsSoluciones
+.buttonImg .deImg {
+	opacity:1;
+	left:2em;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+        transition: all .5s ease;
+        background-size:cover;
+	background-position:left top;
+	background-repeat:no-repeat;
+}
+
+.buttonsSoluciones:hover
+.buttonImg:hover .deImg {
+	/*opacity:.9;*/
+	transform: scale(1.05);
+	-webkit-filter: blur(1px);
+	-moz-filter: blur(1px);
+	-o-filter: blur(1px);
+	-ms-filter: blur(1px);
+	filter: blur(1px);
+	box-shadow: inset 0px 0px 0 5000px rgba(255,255,255,0.5);	
+	
+}
+
+
+.buttonsSoluciones.a{
+	 display:inline;
+	
+}
+.buttonImg {
+	width:100%;	
+	background-size:cover;
+	background-position:right bottom;
+}
+.nosBtnScrollRight{
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+        transition: all .5s ease;
+	background-image: url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/right.png);
+	background-repeat: no-repeat;
+    background-position: center; 
+	position: relative;
+	height: 30vmin;
+	width: 30vmin;
+	background-size:80%;
+}
+.nosBtnScrollRight:hover {
+	background-image: url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/right.png);
+	background-repeat: no-repeat;
+    background-position: center; 
+	position: relative;
+	height: 30vmin;
+	width: 30vmin;
+	background-size:contain;
+	
+}
+.nosBtnScrollLeft{
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	transition: all .5s ease;
+	background-image: url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/left.png);
+	background-repeat: no-repeat;
+    background-position: center; 
+	/*background: transparent url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/nosotros.jpg) no-repeat fixed center center / cover ;*/
+	position: relative;
+	height: 30vmin;
+	width: 30vmin;
+	background-size:80%;
+}
+.nosBtnScrollLeft:hover {
+	background-image: url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/left.png);
+	background-repeat: no-repeat;
+    background-position: center; 
+	position: relative;
+	height: 30vmin;
+	width: 30vmin;
+	
+	background-size:contain;
+}
+
+.nosBtn {
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+        transition: all .5s ease;
+	background: transparent url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/nosotros.jpg) no-repeat fixed center center / cover ;
+	border: 6px solid white;
+	position: relative;
+	height: 30vmin;
+	width: 30vmin;
+}
+
+.nosBtn:hover {
+	background: transparent url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/nosotros.jpg) no-repeat fixed center center / cover ;
+	border: 6px solid white;
+	position: relative;
+	height: 30vmin;
+	width: 30vmin;
+	transform: scale(1.2);
+    	border: 5px solid rgba(0,0,0,.5);
+}
+
+div.sc_menu {
+    height: 50vmin;
+    overflow: auto;
+    position: relative;
+    width: 100%;
+    overflow:hidden;
+    top:25%;
+}
+ul.sc_menu {
+    background:transparent;
+    display: block;
+    height: 110px;
+    list-style: none outside none;
+    margin: 0;
+    padding: 15px 0 0 15px;
+    width: 300vmin;
+    margin-left: 20vw;
+}
+.sc_menu li {
+    display: block;
+    float: left;
+    padding: 0 10px;
+}
+.sc_menu a {
+    display: block;
+    text-decoration: none;
+}
+.sc_menu span {
+    color: #FFFFFF;
+    display: none;
+    margin-top: 3px;
+    text-align: center;
+}
+.sc_menu a:hover span {
+    display: block;
+}
+.sc_menu img {
+    border: 3px solid #FFFFFF;
+    border-radius: 3px 3px 3px 3px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.sc_menu a:hover img {
+    opacity: 0.5;
+    transform: scale(1.2);
+    border: 5px solid rgba(0,0,0,.5);
+}
+
+.animateTend {
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+    -webkit-transform: translate(0px,0px);
+    -moz-transform: translate(0px,0px);
+    -o-transform: translate(0px,0px);
+    -ms-transform: translate(0px,0px);
+    transform: translate(0px,0px);
+    opacity:1;
+}
+
+.animateTstartA {
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+    -webkit-transform: translate(0px,100px);
+    -moz-transform: translate(0px,100px);
+    -o-transform: translate(0px,100px);
+    -ms-transform: translate(0px,100px);
+    transform: translate(0px,100px);
+    opacity:0;
+}
+
+.animateTstartB {
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+    -webkit-transform: translate(0px,200px);
+    -moz-transform: translate(0px,200px);
+    -o-transform: translate(0px,200px);
+    -ms-transform: translate(0px,200px);
+    transform: translate(0px,200px);
+    opacity:0;
+}
+
+.animateTstartC {
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+    -webkit-transform: translate(0px,300px);
+    -moz-transform: translate(0px,300px);
+    -o-transform: translate(0px,300px);
+    -ms-transform: translate(0px,300px);
+    transform: translate(0px,300px);
+    opacity:0;
+}
+
+.animBtn {
+    -webkit-transition: all 2s ease-in;
+    -moz-transition: all 2s ease-in;
+    -o-transition: all 2s ease-in;
+    -ms-transition: all 2s ease-in;
+    transition: all 2s ease-in;
+    width: 30%;
+    opacity:1;
+}
+
+.moveA {
+    -webkit-transform: translate(30%,0px);
+    -moz-transform: translate(30%,0px);
+    -o-transform: translate(30%,0px);
+    -ms-transform: translate(30%,0px);
+    transform: translate(30%,0px);
+    width: 5%;
+}
+
+.moveB {
+    -webkit-transform: translate(-30%,0px);
+    -moz-transform: translate(-30%,0px);
+    -o-transform: translate(-30%,0px);
+    -ms-transform: translate(-30%,0px);
+    transform: translate(-30%,0px);
+    width: 5%;
+}
+
+.expand {
+    width: 90%;
+}
+
+#accesory {
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    transition: all 2s ease;
+    -webkit-transform: translate(0px,100%);
+    -moz-transform: translate(0px,100%);
+    -o-transform: translate(0px,100%);
+    -ms-transform: translate(0px,100%);
+    transform: translate(0px,100%);
+}
+
+.selected1 { }
+
+.selected2 { }
+
+.selected3 { }
+
+.selected1 #accesory { 
+    -webkit-transform: translate(0px,0px);
+    -moz-transform: translate(0px,0px);
+    -o-transform: translate(0px,0px);
+    -ms-transform: translate(0px,0px);
+    transform: translate(0px,0px);
+}
+
+.selected2 #accesory {
+    -webkit-transform: translate(0px,0px);
+    -moz-transform: translate(0px,0px);
+    -o-transform: translate(0px,0px);
+    -ms-transform: translate(0px,0px);
+    transform: translate(0px,0px);
+}
+
+.selected3 #accesory {
+    -webkit-transform: translate(0px,0px);
+    -moz-transform: translate(0px,0px);
+    -o-transform: translate(0px,0px);
+    -ms-transform: translate(0px,0px);
+    transform: translate(0px,0px);
+}
+
+.hideMe {
+    
+}
+
+#ftr1{
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    font-family: nexa;
+    background-color: rgba(255, 255, 255, 0.5);
+    
+}
+#ftr2{
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+#ftr3{
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    font-family: nexa;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#move > * > * > * div {
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    transition: all 2s ease;
+    -webkit-transform: translate(0px,-100%);
+    -moz-transform: translate(0px,-100%);
+    -o-transform: translate(0px,-100%);
+    -ms-transform: translate(0px,-100%);
+    transform: translate(0px,-100%);
+}
+
+#move:hover  > * > * > * div {
+    -webkit-transform: translate(0px,0px);
+    -moz-transform: translate(0px,0px);
+    -o-transform: translate(0px,0px);
+    -ms-transform: translate(0px,0px);
+    transform: translate(0px,0px);
+}
+

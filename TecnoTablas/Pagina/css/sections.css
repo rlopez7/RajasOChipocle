@@ -1,4 +1,4 @@
-#inicio .bcg{
+#inicino .bcg{
 	background-image:url('../img/bg1_white.png')
 }
 
@@ -9,7 +9,7 @@
 	/*background-image:url('../img/bg.png')*/
 }
 #nosotros .bcg{
-	background-image:url('../img/bg_nosotros_white.png')
+	/*background-image:url('../img/bg_nosotros_white.png')*/
 }
 
 
@@ -19,14 +19,26 @@
 	margin: 0 auto 0 auto;	
 	display:block;
 }
-	.buttonsSoluciones:hover .buttonImg{
-		opacity:.5;
-		left:2em;
-	}
-	.buttonsSoluciones:hover .buttonImg:hover{
-		opacity:1;
-		
-	}
+.buttonsSoluciones:hover .buttonImg{
+	opacity:1;
+	left:2em;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+        transition: all .5s ease;
+}
+.buttonsSoluciones:hover .buttonImg:hover{
+	/*opacity:.9;*/
+	/*transform: scale(1.05);*/
+	background-size:120% 120%; background-position:center center;
+	-webkit-filter: blur(1px);
+	-moz-filter: blur(1px);
+	-o-filter: blur(1px);
+	-ms-filter: blur(1px);
+	filter: blur(1px);
+	box-shadow: inset 0px 0px 0 5000px rgba(255,255,255,0.5);
+}
 .buttonsSoluciones.a{
 	 display:inline;
 	

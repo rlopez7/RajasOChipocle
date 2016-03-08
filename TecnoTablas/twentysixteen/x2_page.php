@@ -1,38 +1,38 @@
 <?php
 /*
 Template Name: x2*/
-
 get_header(); ?>
 <main>
-
+	
 	<section id="inicio" class="homeSlide">
-
+		
 <div style="width:100%; height:100%; padding-left:0; padding-right:0;" id="myCarousel" class="carousel container slide"> <div class="carousel-inner" style="width:100%; height:100%">
+
 		<div class="bcg item active one"></div>
 		<div class="bcg item two"></div>
-		<div class="bcg item three"></div>
-		<div class="bcg item four"></div>
+		<!--div class="bcg item three"></div>
+		<div class="bcg item four"></div-->
 		<div class="bcg item five"></div>
 		<div class="bcg item six"></div>
 		<div class="bcg item seven"></div>
 		<div class="bcg item eight"></div>
 </div>
 	</div>
-
+	
 	</section>
-	<span style="display: block; height: 45px; margin-top: -45px; visibility: hidden;" id="soluciones"></span>
+	<span style="display: block; height: 100px; margin-top: -45px; visibility: hidden;" id="soluciones"></span>
 	<section style="height:0%">
 		<div data-anchor-target="#soluciones">
             <div class="hsContainer" style="height:60vh;top:8vh;position:static">
                 <div class="hsContent" data-anchor-target="#soluciones">
 		    <div>
-			<div align="left" style="font-family:nexa; color:black; font-size:1.6vw;padding-left:5vw;height:15vh;display:table-cell;vertical-align:middle;">SOLUCIONES EN MDF</div>
+			<div align="left" class="title_underline">SOLUCIONES EN MDF<br/><b>_</b></div>
                     <table id="solucionesTable" class="buttonsSoluciones" style="display:block;">
                         <tr>
                             <td style="width:43vw;overflow: hidden">
                                 <a class="buttonImg" href="basicas" style="text-decoration:none;"  data-anchor-target="#soluciones" data-bottom-top="position:relative; top:60%;" data-100-center="position:static; top:0%;">
 				    <div>
-				    	<div style="font-family:nexa; text-decoration:none; color:white; text-align:right; background-color:#435D5A; font-size:2vw;">
+				    	<div style="font-family: nexa; text-decoration: none; color: white; text-align: right; background-color: rgb(67, 93, 90); font-size: 1.5vw; line-height: 3vw;">
 						BÁSICAS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 				    	</div>
 				    	<div style="font-family:nexa; text-decoration:none; color:white; text-align:right; background-color:transparent; font-size:.8vh;"> &nbsp; </div>
@@ -42,9 +42,9 @@ get_header(); ?>
                             </td>
 			    <td style="width:1vw">&nbsp;</td>
 			    <td style="width:25vw;overflow: hidden">
-                                <a href="#inicio" class="buttonImg" style="text-decoration:none;">
+                                <a href="especializadas" class="buttonImg" style="text-decoration:none;">
 				    <div class="buttonImg" data-anchor-target="#soluciones" data-bottom-top="position:relative; top:70%;" data-100-center="position:static; top:0%;">
-				    	<div style="font-family:nexa; text-decoration:none; color:white; text-align:center; background-color:#D59236; font-size:2vw;">
+				    	<div style="font-family:nexa; text-decoration:none; color:white; text-align:center; background-color:#D59236;  font-size: 1.5vw; line-height: 3vw;">
 						ESPECIALIZADAS
 				    	</div>
 				    	<div style="font-family:nexa; text-decoration:none; color:white; text-align:right; background-color:transparent; font-size:.8vh;"> &nbsp; </div>
@@ -54,16 +54,18 @@ get_header(); ?>
                             </td>
 			    <td style="width:1vw">&nbsp;</td>
                             <td style="width:30vw;overflow: hidden">
-                                <a href="#inicio" class="buttonImg" style="text-decoration:none;">
+                                <!--<a href="#inicio" class="buttonImg" style="text-decoration:none;">-->
+				<div class="buttonImg" style="text-decoration:none;">
 				    <div data-anchor-target="#soluciones" data-bottom-top="position:relative; top:80%;" data-100-center="position:static; top:0%;">
-				    	<div style="font-family:nexa; text-decoration:none; color:white; text-align:left; background-color:#9F2743; font-size:2vw;">
+				    	<div style="font-family: nexa; text-decoration: none; color: white; text-align: left; font-size: 1.5vw; line-height: 3vw; background-color: #898989; cursor: default;">
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DECORATIVAS
 				    	</div>
-				    	<div style="font-family:nexa; text-decoration:none; color:white; text-align:right; background-color:transparent; font-size:.8vh;"> &nbsp; </div>
-					<div class="deImg" style="line-height:25.8vmax;background-image: url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/decorativas_base.png);"> &nbsp;</div>
+				    	<div style="font-family:nexa; text-decoration:none; color:white; text-align:right; background-color:transparent; font-size:.8vh; cursor: default;"> &nbsp; </div>
+					<div class="deImg" style="line-height:25.8vmax;background-image: url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/decorativas_base_off.png); cursor: default;"> &nbsp;</div>
 				    </div>
-                                </a>
-                            </td>
+				</div>
+                                <!--</a>-->
+                            </td>                           
                         </tr>
                     </table>
 		    </div>
@@ -71,14 +73,14 @@ get_header(); ?>
             </div>
 		</div>
 	</section>
-	<span style="display: block; height: 45px; margin-top: -45px; visibility: hidden;" id="tendencias"></span>
+	<span style="display: block; height: 100px; margin-top: -45px; visibility: hidden;" id="tendencias"></span>
 	<section style="height:0%">
 
 		<div data-anchor-target="#tendencias">
             <div class="hsContainer" style="height:60vh;top:8vh;position:static">
                 <div class="hsContent" data-anchor-target="#tendencias" style="display:inline;">
 		    <div>
-			<div align="left" style="font-family:nexa; color:black; font-size:1.6vw;padding-left:5vw;height:15vh;display:table-cell;vertical-align:middle;">TENDENCIAS</div>
+			<div align="left" class="title_underline">TENDENCIAS<br/><b>_</b></div>
                     <table id="solucionesTable" class="buttonsSoluciones" style="height:80vh">
                         <tr>
 				<td width="50%" height="50%" style="overflow: hidden; border-bottom: 5px solid white; border-right: 5px solid white;">
@@ -89,7 +91,7 @@ get_header(); ?>
 							<div class="deImg" style="background-image: url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/diseno.png); height:100%">
 								&nbsp;
 							</div>
-							<div style="font-family: nexa; text-decoration: none; color: black; text-align: right; background-color: rgba(255, 255, 255, 0.5); font-size: 2vw; position: relative; top: -2.5vw;">
+							<div style="font-family: nexa; text-decoration: none; color: black; text-align: right; background-color: rgba(255, 255, 255, 0.5); font-size: 1.5vw; line-height: 3vw; position: absolute; bottom: 0;right:0;width:100%;">
 								DISEÑO MEXICANO&nbsp;&nbsp;&nbsp;
 							</div>
 						</a>
@@ -97,13 +99,13 @@ get_header(); ?>
 				</td>
 				<td width="30%" height="50%" style="overflow: hidden; border-bottom: 5px solid white; border-right: 5px solid white;">
 					<div id="utopia" data-anchor-target="#tendencias" style="width:100%;height:100%"
-						data-bottom="@class:animateTstartA"
+						
 						data-center="@class:animateTend" data-edge-strategy="set">
-					<a href="#inicio" class="buttonImg" style="text-decoration:none;" data-anchor-target="#soluciones">
+					<a href="utopia" class="buttonImg" style="text-decoration:none;" data-anchor-target="#soluciones">
 						<div class="deImg" style="background-image: url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/utopia.png); height:100%">
 							&nbsp;
 						</div>
-						<div align="center" style="font-family: nexa; text-decoration: none; color: black; text-align: left; background-color: rgba(255, 255, 255, 0.5); font-size: 2vw; position: relative; top: -2.5vw;">
+						<div align="center" style="font-family: nexa; text-decoration: none; color: black; text-align: left; background-color: rgba(255, 255, 255, 0.5); font-size: 1.5vw; line-height: 3vw; position: absolute; bottom: 0;width:100%;">
 							&nbsp;&nbsp;&nbsp;UTOPÍA
 						</div>
                     </a>
@@ -117,7 +119,7 @@ get_header(); ?>
 						<div class="deImg" style="background-image: url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/nomada.png); height:100%">
 							&nbsp;
 						</div>
-						<div style="font-family: nexa; text-decoration: none; color: black; text-align: left; background-color: rgba(255, 255, 255, 0.5); font-size: 2vw; position: relative; top: -2.5vw;">
+						<div style="font-family: nexa; text-decoration: none; color: black; text-align: left; background-color: rgba(255, 255, 255, 0.5); font-size: 1.5vw; line-height: 3vw; position: absolute; bottom: 0;width:100%;">
 							&nbsp;&nbsp;&nbsp;NÓMADA
 						</div>
 					</a>
@@ -132,23 +134,27 @@ get_header(); ?>
 						<div class="deImg" style="background-image: url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/virtual.png); height:100%">
 							&nbsp;
 						</div>
-						<div style="font-family: nexa; text-decoration: none; color: black; text-align: right; background-color: rgba(255, 255, 255, 0.5); font-size: 2vw; position: relative; top: -100%;">
+						<div style="font-family: nexa; text-decoration: none; color: black; text-align: right; background-color: rgba(255, 255, 255, 0.5); font-size: 1.5vw; line-height: 3vw; position: absolute;top:0;right:0; ">
 							VIRTUAL&nbsp;&nbsp;&nbsp;
 				    	</div>
 				    </a>
 				    </div>
 				</td>
 				<td height="50%" colspan="2" style="overflow: hidden;">
-					<div id="alquimia" data-anchor-target="#nomada" style="width:100%;height:100%"
+					
+					<div id="alquimia" data-anchor-target="#nomada" style="width:100%;height:100%;"
 						data-bottom="@class:animateTstartA"
 						data-center="@class:animateTend" data-edge-strategy="set">
-					<a href="#inicio" class="buttonImg" style="text-decoration:none;" data-anchor-target="#soluciones">
-						<div class="deImg" style="background-image: url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/alquimia.png); height:100%">
+						
+					<a href="#inicio" class="buttonImg" style="text-decoration:none;width:100%;height:100%;" data-anchor-target="#soluciones">
+
+						<div class="deImg" style="background-image: url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/alquimia.png); height:100%;top:-2.5vw !important;">
 							&nbsp;
 						</div>
-						<div style="font-family: nexa; text-decoration: none; color: black; text-align: left; background-color: rgba(255, 255, 255, 0.5); font-size: 2vw; position: relative; top: -100%;">
+						<div style="font-family: nexa; text-decoration: none; color: black; text-align: left; background-color: rgba(255, 255, 255, 0.5); font-size: 1.5vw; line-height: 3vw; position:absolute;width:100%;top:0;">
 							&nbsp;&nbsp;&nbsp;ALQUIMIA
 						 </div>
+						
 					</a>
 					</div>
 				</td>
@@ -159,9 +165,9 @@ get_header(); ?>
             </div>
 		</div>
 	</section>
-	<span style="display: block; height: 45px; margin-top: -45px; visibility: hidden;" id="nosotros"></span>
+	<span style="display: block; height: 100px; margin-top: -45px; visibility: hidden;" id="nosotros"></span>
 	<section class="homeSlide" style="min-width:50px;height:600px">
-	<div align="left" style="font-family:nexa; color:black; font-size:1.6vw;padding-left:5vw;height:15vh;display:table-cell;vertical-align:middle;">NOSOTROS</div>
+	<div align="left" class="title_underline">NOSOTROS<br/><b>_</b></div>
 		<div class="bcg" data-anchor-target="#nosotros" style="background: url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/nosotros.jpg) no-repeat center center / cover; background-attachment: fixed;top:8vh;">
 			<div class="hsContainer">
 				<div class="hsContent" data-anchor-target="#nosotros">
@@ -169,13 +175,16 @@ get_header(); ?>
 			</div>
 		</div>
 		<div class="bcg" align="center" data-anchor-target="#nosotros" style="background: rgba(255, 255, 255, 0.5) none repeat scroll 0% 0%; position: relative; top: -100%; height: 100%; font-family: nexa; line-height: 1.2; color: white; font-size: 2vw;">
-			<div class="sc_menu" style="top:25%;">
-			    <ul class="sc_menu"></br>
+			
+			<div class="nosBtnLeft"  ><div class="nosBtnScrollLeft" style="top:25%;position:absolute;left:0;width:10%;height:40vmin;z-index:100;"></div></div>
+			<div class="nosBtnRight" ><div class="nosBtnScrollRight" style="top:25%;position:absolute;right:0;width:10%;height:40vmin;z-index:100;"></div></div>
+			<div class="sc_menu" style="top:25%;width:80%">
+			    <ul class="sc_menu" style=" font-size: 1.5vw;"></br>
 				        <li><div class="nosBtn" style="">
 							<a style="cursor:pointer;text-decoration:none" href="nosotros">
 								<table style="height: 100%; width: 100%; color: white;">
 									<tr height="50%">
-										<td style="vertical-align: bottom;padding-left:5%">
+										<td style="vertical-align: bottom;padding-left:5%; padding-top: 15%;">
 											¿QUIÉNES</br>SOMOS?
 										</td>
 									</tr>
@@ -191,7 +200,7 @@ get_header(); ?>
 							<a style="cursor:pointer;text-decoration:none" href="nosotros/#adn">
 								<table style="height: 100%; width: 100%; color: white;">
 									<tr height="50%">
-										<td style="vertical-align: bottom;padding-left:5%">
+										<td style="vertical-align: bottom;padding-left:5%; padding-top: 15%;">
 											NUESTRO</br>ADN
 										</td>
 									</tr>
@@ -207,7 +216,7 @@ get_header(); ?>
 							<a style="cursor:pointer;text-decoration:none" href="nosotros/#timeline">
 								<table style="height: 100%; width: 100%; color: white;">
 									<tr height="50%">
-										<td style="vertical-align: bottom;padding-left:5%">
+										<td style="vertical-align: bottom;padding-left:5%; padding-top: 15%;">
 											HISTORIA
 										</td>
 									</tr>
@@ -223,7 +232,7 @@ get_header(); ?>
 							<a style="cursor:pointer;text-decoration:none" href="nosotros/#propuesta">
 								<table style="height: 100%; width: 100%; color: white;">
 									<tr height="50%">
-										<td style="vertical-align: bottom;padding-left:5%">
+										<td style="vertical-align: bottom;padding-left:5%; padding-top: 15%;">
 											PROPUESTA</br>DE VALOR
 										</td>
 									</tr>
@@ -239,7 +248,7 @@ get_header(); ?>
 							<a style="cursor:pointer;text-decoration:none" href="#">
 								<table style="height: 100%; width: 100%; color: white;">
 									<tr height="50%">
-										<td style="vertical-align: bottom;padding-left:5%">
+										<td style="vertical-align: bottom;padding-left:5%; padding-top: 15%;">
 											LA PLANTA</br>MDF
 										</td>
 									</tr>
@@ -255,7 +264,7 @@ get_header(); ?>
 							<a style="cursor:pointer;text-decoration:none" href="#">
 								<table style="height: 100%; width: 100%; color: white;">
 									<tr height="50%">
-										<td style="vertical-align: bottom;padding-left:5%">
+										<td style="vertical-align: bottom;padding-left:5%; padding-top: 15%;">
 											¿CÓMO LO</br>HACEMOS?
 										</td>
 									</tr>

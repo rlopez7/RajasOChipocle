@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="es-MX" class="no-js">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--link rel="stylesheet" href="http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/css/normalize.css"-->
+	<link rel="stylesheet" href="http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/css/main.css">
+	<link rel="stylesheet" href="http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/css/menu.css">
+	<link rel="stylesheet" href="http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/css/sections.css">
+	<script src="http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/js/vendor/modernizr-2.7.1.min.js"></script>
+	<style type="text/css">
+		@font-face {
+		    font-family: nexa;
+		    src: url("http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/fonts/NexaLight.otf") format("opentype");
+		}
+		@font-face {
+		    font-family: nexa;
+		    src: url("http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/fonts/NexaBold.otf") format("opentype");
+		    font-weight: bold;
+		}
+		.back-link a {
+			color: #4ca340;
+			text-decoration: none;
+			border-bottom: 1px #4ca340 solid;
+		}
+		.back-link a:hover,
+		.back-link a:focus {
+			color: #408536;
+			text-decoration: none;
+			border-bottom: 1px #408536 solid;
+		}
+		h1 {
+			height: 100%;
+			/* The html and body elements cannot have any padding or margin. */
+			margin: 0;
+			font-size: 14px;
+			font-family: 'Open Sans', sans-serif;
+			color: #1c1d1e;
+			font-size: 32px;
+			margin-bottom: 3px;
+		}
+		h2 {
+			color: #1c1d1e;
+			font-family: 'Open Sans', sans-serif;
+			font-weight: normal;
+		}
+		.centerText {
+			/* Internet Explorer 10 */
+			display:-ms-flexbox;
+			-ms-flex-pack:center;
+			-ms-flex-align:center;
+
+			/* Firefox */
+			display:-moz-box;
+			-moz-box-pack:center;
+			-moz-box-align:center;
+
+			/* Safari, Opera, and Chrome */
+			display:-webkit-box;
+			-webkit-box-pack:center;
+			-webkit-box-align:center;
+
+			/* W3C */
+			display:box;
+			box-pack:center;
+			box-align:center;
+		}
+		.entry-header .inner {
+			text-align: left;
+			margin: 0 auto 20px auto;
+			width: 800px;
+		}
+		.entry-header { padding-top: 20px; background-color: #fff; width:100%; position: fixed; top: 0; left: 0; z-index: 999999}
+		.socialLinks {
+			position: fixed;
+			top: 20px;
+			right: 20px;
+			z-index: 1000000;
+		}
+		.fb-like,
+		.twitter-follow-button,
+		.twitter-share-button {margin-right: 10px;}
+		#carbonads-container {
+			position: fixed;
+			bottom: 20px;
+			right: 20px;
+			z-index: 1000000;
+		}
+	</style>
+	<!-- Bootstrap Core CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+	<!-- Custom CSS -->
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<!--[endif]-->
+</head>
+<body class="loading" style="height:100%!important;">
+<header class="menu" align="center">
+	<nav class="navbar navbar-fixed-top" role="navigation" style="height: 5.2vw; background-color: rgb(255, 255, 255);">
+		<a href="#inicio" style="position:relative;float:left;">
+			<img class="logo" border="0" src="http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/logo.png" style="opacity: 1; height: 5.2vw; left: 10px; top: 0px;">
+		</a>
+
+		<div align="center" style="width: 100%; height: 100%; padding-left: 50%;">
+		<table align="center" style="height: 100%; width: 100%;">
+			<tr style="vertical-align:middle;height:20%;">
+				<td class="item">
+					<a href="../#inicio" style="text-decoration:none"><div class="menu_item">&nbsp;&nbsp;INICIO&nbsp;&nbsp;</div></a>
+				</td>
+				<td class="item">
+					<a href="../#soluciones" style="text-decoration:none"><div class="menu_item">&nbsp;&nbsp;SOLUCIONES EN MDF&nbsp;&nbsp;</div></a>
+				</td>
+				<td class="item">
+					<a href="../#tendencias" style="text-decoration:none"><div class="menu_item">&nbsp;&nbsp;TENDENCIAS&nbsp;&nbsp;</div></a>
+				</td>
+				<td class="item">
+					<a href="../#nosotros" style="text-decoration:none"><div class="menu_item_active">&nbsp;&nbsp;NOSOTROS&nbsp;&nbsp;</div></a>
+				</td>
+				<td class="item">
+					<a href="../#madera" style="text-decoration:none"><div class="menu_item">&nbsp;&nbsp;NUESTRA MADERA&nbsp;&nbsp;</div></a>
+				</td>
+				<td class="item">
+					<a href="../#descargas" style="text-decoration:none"><div class="menu_item">&nbsp;&nbsp;DESCARGAS&nbsp;&nbsp;</div></a>
+				</td><!--
+				<td class="item">
+					<a class="item_inicio" href="../#inicio"></a>
+				</td>
+				<td class="item">
+					<a class="item_soluciones" href="../#soluciones"></a>
+				</td>
+				<td class="item">
+					<a class="item_tendencias" href="../#tendencias"></a>
+				</td>
+				<td class="item">
+					<a class="item_nosotros" href="../#nosotros"></a>
+				</td>
+				<td class="item">
+					<a class="item_madera" href="../#madera"></a>
+				</td>
+				<td class="item">
+					<a class="item_descargas" href="../#descargas"></a>
+				</td>-->
+			</tr>
+
+		</table>
+		</div>
+	</nav>
+</header>
+<main style="overflow:hidden;padding-top: 8.5%">
+	<section id="slide1" class="homeSlide homeSlideTall">
+		<div align="left" class="title_underline" style="font-size: 3vw;">SOLUCIONES BÁSICAS<br/><b>_</b></div>
+		<div class="bcg" style="background: transparent url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/basicas/element-04.png) no-repeat center center / cover fixed; font-family: nexa; font-size: 5vh; color: white; line-height: 6vh; overflow: hidden;" data-top="background-position: 50% 0px;" data-top-bottom="background-position: 50% 100px;" data-anchor-target="#slide1">
+			<table height="100%" width="100%">
+				<tr>
+				<td style="padding-left: 5%; line-height: 1.2; color: black; font-family: nexa; font-size: 2vw; background-image: url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/basicas/slide.png); background-repeat: no-repeat; background-position: left center; opacity: 1; bottom: 0px; vertical-align: bottom; height: 94.5%; background-size: 55% auto;"
+						data-top="opacity:0"
+						data-500-top-bottom="opacity:1" data-anchor-target="#slide1">
+					<div id="text" >
+						Distingue tu trabajo con nuestros tableros</br>de fibra de mediana densidad desnudos.</br></br>
+						Hechos de madera directa del tronco,</br>aportan características incomparables</br>
+						para la industria del mueble al ser</br> resistentes y homogéneos.</br></br></div>
+				</div>
+					</td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+				</tr>
+			</table>
+
+		</div>
+	</section>
+	<!--section id="plecaEstandar">
+		<div><p class="centerText" style="height:100%;">ESTÁNDAR</p></div>
+	</section-->
+	<section id="slideEstandar" class="homeSlide">
+
+		<table style="width:100%; height:100%;background-color:white;" rowpadding="0" rowspacing="0"     >
+			<tr>
+			<td style="font-family: nexa; font-size: 1.3vw; padding-left:5%;color:#8E847B;line-height:1.2;height:34%">
+				</br></br><b style="font-size: 1.5vw;color:black" >ESTÁNDAR</b></br></br>
+				TecnoTabla Estándar es un MDF desnudo fabricado con</br>
+				la más alta tecnología, madera directa del tronco y </br>
+				densidad de 680-750kg/m&sup3;</br></br>
+				Es el tablero experto con múltiples características de </br>
+				uso para proyectos que trascienden.
+			</td>
+			<td rowspan ="3" style="width: 50%; height:100%">
+			<div style="background: transparent url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/Nosotros/como.png) no-repeat fixed right center / auto 100%;position:relative;height:70%;width:70%;left:15%;" >
+			</div></br>&nbsp;
+			<table style="width:100%;height:20%; font-family: nexa; font-size: 1.5vw;color:#8E847B;">
+					<tr class="tb1">
+<td style="width:10%"></td>
+						<td style="background: transparent url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/basicas/download.png) no-repeat center center/ contain; width:25%; height:50%; position:relative;"  data-bottom="top:100px" data--100-center="top:0px" data-anchor-target="#slideEstandar .tb1">
+						</td>
+						<td style="background: transparent url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/basicas/sample.png) no-repeat center center / contain;width:25%; height:50%; position:relative;" data-bottom="top:80px" data--100-center="top:0px" data-anchor-target="#slideEstandar .tb1">
+						</td>
+						<td style="background: transparent url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/basicas/info.png) no-repeat center center / contain;width:25%; height:50%; position:relative;" data-bottom="top:60px" data--100-center="top:0px" data-anchor-target="#slideEstandar .tb1">
+						</td>
+<td style="width:10%"></td>
+					</tr>
+					<tr>
+<td style="width:10%"></td>
+						<td style="font-size:.7em; position:relative;" align="center" data-bottom="top:100px" data-center="top:0px" data-anchor-target="#slideEstandar .tb1">Descargar </br><b>ficha técnica</b></td>
+						<td style="font-size:.7em; position:relative;;" align="center" data-bottom="top:80px" data--100-center="top:0px" data-anchor-target="#slideEstandar .tb1">Solicita </br><b>muestra</b></td>
+						<td style="font-size:.7em; position:relative;" align="center" data-bottom="top:60px" data--100-center="top:0px" data-anchor-target="#slideEstandar .tb1">¿Cómo </br><b>lo hacemos?</b></td>
+<td style="width:10%"></td>
+					</tr>
+				</table>
+
+			</td>
+			</tr>
+			<tr>
+			<td style="font-family: nexa; font-size: 1.5vw; padding-left:5%;color:#8E847B;line-height:1.2;;height:33%">
+				<b style="color:black">CARACTERÍSTICAS</br>&nbsp;</b>
+				<table style="width:80%;height:60%">
+					<tr class="tb1">
+						<td style="background: transparent url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/basicas/element-52.png) no-repeat center center/ contain; width:25%; height:50%; position:relative;"  data-bottom="top:100px" data-300-center="top:0px" data-anchor-target="#slideEstandar .tb1">
+						</td>
+						<td style="background: transparent url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/basicas/element-53.png) no-repeat center center / contain; width:25%; height:50%; position:relative;" data-bottom="top:80px" data-300-center="top:0px" data-anchor-target="#slideEstandar .tb1">
+						</td>
+						<td style="background: transparent url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/basicas/element-54.png) no-repeat center center / contain; width:25%; height:50%; position:relative;" data-bottom="top:60px" data-300-center="top:0px" data-anchor-target="#slideEstandar .tb1">
+						</td>
+						<td style="background: transparent url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/basicas/element-55.png) no-repeat center center / contain; width:25%; height:50%; position:relative;" data-bottom="top:40px" data-300-center="top:0px" data-anchor-target="#slideEstandar .tb1">
+						</td>
+
+					</tr>
+					<tr>
+						<td style="font-size:.7em; position:relative;" align="center" data-bottom="top:100px" data-300-center="top:0px" data-anchor-target="#slideEstandar .tb1">Superficie </br><b>homogénea</b></td>
+						<td style="font-size:.7em; position:relative;;" align="center" data-bottom="top:80px" data-300-center="top:0px" data-anchor-target="#slideEstandar .tb1">Resistente</td>
+						<td style="font-size:.7em; position:relative;" align="center" data-bottom="top:60px" data-300-center="top:0px" data-anchor-target="#slideEstandar .tb1">Amable con </br><b>tus herramientas</b></td>
+						<td style="font-size:.7em; position:relative;" align="center" data-bottom="top:40px" data-300-center="top:0px" data-anchor-target="#slideEstandar .tb1">Limpieza </br><b>de corte</b></td>
+
+					</tr>
+				</table>
+			</td>
+			</tr>
+			<tr>
+			<td style="font-family: nexa; font-size: 1.5vw; padding-left:5%;color:#8E847B;line-height:1.2;;height:33%">
+				<b style="color:black">APLICACIONES</b></br>&nbsp;
+				<ul>
+				<li style="width: auto; float: left;">MOBILIARIO DE HOGAR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+				<li style="width: auto; float: left;">ESTANTERÍA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+				<li style="width: auto; float: left;">MOLDURAS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+				<li style="width: auto; float: left;"></li>
+				<li style="width: auto; float: left;">MARCOS DE PUERTAS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+				<li style="width: auto; float: left;">PUERTAS DE ARMARIOS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+				<li style="width: auto; float: left;"></li>
+				<li style="width: auto; float: left;">REVESTIMIENTO DE PAREDES&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+				<li style="width: auto; float: left;"></li>
+				</ul>
+			</td>
+			</tr>
+	        </table>
+	</section>
+	<!--section id="plecaLigero">
+	<div style="background-color: #8E847B; background:url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/basicas/pleca.png) no-repeat #8E847B right 15vh / auto 35vw;  background-attachment: fixed; font-family: nexa; font-size: 5vh; color:white; font-weight:bold; height: 20vh;" align="center"><p class="centerText" style="height:100%;">LIGERO</p></div>
+	</section-->
+	<section id="slideLigero" class="homeSlide">
+		<table style="width:100%; height:100%;" rowpadding="0" rowspacing="0">
+			<tr>
+			<td rowspan ="3" style="width: 50%;">
+
+				<div style="background: transparent url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/Nosotros/como.png) no-repeat fixed left center / auto 100%;position:relative;height:70%;width:70%;left:15%;" >
+
+			</div></br>&nbsp;
+				<table style="width:100%;height:20%;font-family: nexa; font-size: 1.5vw;color:#8E847B;">
+					<tr class="tb1">
+<td style="width:10%"></td>
+						<td style="background: transparent url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/basicas/download.png) no-repeat center center/ contain; width:25%; height:50%; position:relative;"  data-bottom="top:100px" data--100-center="top:0px" data-anchor-target="#slideEstandar .tb1">
+						</td>
+						<td style="background: transparent url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/basicas/sample.png) no-repeat center center / contain;width:25%; height:50%; position:relative;" data-bottom="top:80px" data--100-center="top:0px" data-anchor-target="#slideEstandar .tb1">
+						</td>
+						<td style="background: transparent url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/basicas/info.png) no-repeat center center / contain;width:25%; height:50%; position:relative;" data-bottom="top:60px" data--100-center="top:0px" data-anchor-target="#slideEstandar .tb1">
+						</td>
+<td style="width:10%"></td>
+					</tr>
+					<tr>
+<td style="width:10%"></td>
+						<td style="font-size:.7em; position:relative;" align="center" data-bottom="top:100px" data-center="top:0px" data-anchor-target="#slideEstandar .tb1">Descargar </br><b>ficha técnica</b></td>
+						<td style="font-size:.7em; position:relative;;" align="center" data-bottom="top:80px" data--100-center="top:0px" data-anchor-target="#slideEstandar .tb1">Solicita </br><b>muestra</b></td>
+						<td style="font-size:.7em; position:relative;" align="center" data-bottom="top:60px" data--100-center="top:0px" data-anchor-target="#slideEstandar .tb1">¿Cómo </br><b>lo hacemos?</b></td>
+<td style="width:10%"></td>
+					</tr>
+				</table>
+
+			</td>
+			<td style="font-family: nexa; font-size: 1.3vw; padding-left:5%;color:#8E847B;line-height:1.2;height:34%">
+				</br></br><b style="font-size: 1.5vw;color:black">LIGERO</b></br></br>
+				TecnoTabla Ligero es un tablero de MDF con densidad entre 590-640 </br>
+				kg/m&sup3;, la solución perfecta cuando son necesarios tableros muy</br>
+				ligeros y manejables. Ideal para espacios en dónde la resistencia</br>
+				mecánica no es el elemento más importante.</br>
+			</td>
+			</tr>
+			<tr>
+			<td style="font-family: nexa; font-size: 1.5vw; padding-left:5%;color:#8E847B;line-height:1.2;;height:33%">
+				<b style="color:black">CARACTERÍSTICAS</br>&nbsp;</b>
+				<table style="width:80%;height:60%">
+					<tr class="tb2">
+						<td style="background: transparent url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/basicas/element-52.png) no-repeat center center/ contain; width:25%; height:50%; position:relative;"  data-bottom="top:40px" data-300-center="top:0px" data-anchor-target="#slideLigero .tb2">
+						</td>
+						<td style="background: transparent url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/basicas/element-54.png) no-repeat center center/ contain; width:25%; height:50%; position:relative;"  data-bottom="top:60px" data-300-center="top:0px" data-anchor-target="#slideLigero .tb2">
+						</td>
+						<td style="background: transparent url(http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/img/basicas/element-61.png) no-repeat center center/ contain; width:25%; height:50%; position:relative;"  data-bottom="top:80px" data-300-center="top:0px" data-anchor-target="#slideLigero .tb2">
+						</td>
+						<td style="background: transparent width:25%; height:50%; position:relative;"  data-bottom="top:80px" data--100-center="top:0px" data-anchor-target="#slideLigero .tb2">
+						</td>
+					</tr>
+					<tr>
+						<td style="font-size:.7em; position:relative;"  data-bottom="top:40px" data-300-center="top:0px" data-anchor-target="#slideLigero .tb2" align="center">Superficie </br><b>homogénea</b></td>
+						<td style="font-size:.7em; position:relative;"  data-bottom="top:60px" data-300-center="top:0px" data-anchor-target="#slideLigero .tb2" align="center">Amable con </br><b>tus herramientas</b></td>
+						<td style="font-size:.7em; position:relative;"  data-bottom="top:80px" data-300-center="top:0px" data-anchor-target="#slideLigero .tb2" align="center">Ligero</b></td>
+					</tr>
+				</table>
+			</td>
+			</tr>
+			<tr>
+			<td style="font-family: nexa; font-size: 1.5vw; padding-left:5%;color:#8E847B;line-height:1.2;;height:33%">
+				<b style="color:black">APLICACIONES</b></br>&nbsp;
+				<ul>
+				<li style="width: auto; float: left;">MONTAJE DE EXPOSICIONES&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+				<li style="width: auto; float: left;">MAMPARAS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+				<li style="width: auto; float: left;"></li>
+				<li style="width: auto; float: left;">SEPARACIONES INTERNAS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+				<li style="width: auto; float: left;">TECHOS FALSOS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+				<li style="width: auto; float: left;"></li>
+				</ul>
+			</td>
+			</tr>
+	        </table>
+	</section>
+</main>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+<script src="http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/js/imagesloaded.js"></script>
+<script src="http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/js/skrollr.js"></script>
+<script src="http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-content/themes/twentysixteen/js/_main.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<!-- Google Analytics: change UA-839919-3 to be your site's ID.
+<script>
+    var _gaq=[['_setAccount','UA-839919-3'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src='//www.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>-->
+<script type="text/javascript">
+  $("#porqueBtn").click(function() {
+  	if ($(".selected2")[0]) {
+	  	$("#porqueBtn").removeClass("moveB");
+	  	$("#comoBtn").removeClass("moveB");
+	  	$("#queBtn").removeClass("selected2");
+	  	$("#queBtn").removeClass("expand");
+  		$("#ftr1").removeClass("hideMe");
+  		$("#ftr2").removeClass("hideMe");
+  	}
+  	if ($(".selected3")[0]) {
+	  	$("#porqueBtn").removeClass("moveB");
+	  	$("#comoBtn").removeClass("expand");
+	  	$("#comoBtn").removeClass("selected3");
+	  	$("#queBtn").removeClass("moveA");
+  		$("#ftr1").removeClass("hideMe");
+  		$("#ftr3").removeClass("hideMe");
+  	}
+    if ($(".selected1")[0]) {
+    	$("#queBtn").removeClass("moveA");
+    	$("#comoBtn").removeClass("moveA");
+    	$("#porqueBtn").removeClass("expand");
+    	$("#porqueBtn").removeClass("selected1");
+  		$("#ftr2").removeClass("hideMe");
+  		$("#ftr3").removeClass("hideMe");
+  	}
+	else {
+  		$("#ftr2").addClass("hideMe");
+  		$("#ftr3").addClass("hideMe");
+		$("#queBtn").addClass("moveA");
+		$("#comoBtn").addClass("moveA");
+		$("#porqueBtn").addClass("expand selected1");
+	}
+  });
+
+  $("#queBtn").click(function() {
+    if ($(".selected1")[0]) {
+    	$("#queBtn").removeClass("moveA");
+    	$("#comoBtn").removeClass("moveA");
+    	$("#porqueBtn").removeClass("expand");
+    	$("#porqueBtn").removeClass("selected1");
+  		$("#ftr2").removeClass("hideMe");
+  		$("#ftr3").removeClass("hideMe");
+  	}
+  	if ($(".selected3")[0]) {
+	  	$("#porqueBtn").removeClass("moveB");
+	  	$("#comoBtn").removeClass("expand");
+	  	$("#comoBtn").removeClass("selected3");
+	  	$("#queBtn").removeClass("moveA");
+  		$("#ftr1").removeClass("hideMe");
+  		$("#ftr3").removeClass("hideMe");
+  	}
+  	if ($(".selected2")[0]) {
+	  	$("#porqueBtn").removeClass("moveB");
+	  	$("#comoBtn").removeClass("moveB");
+	  	$("#queBtn").removeClass("selected2");
+	  	$("#queBtn").removeClass("expand");
+  		$("#ftr1").removeClass("hideMe");
+  		$("#ftr2").removeClass("hideMe");
+  	}
+  	else {
+  		$("#ftr2").addClass("hideMe");
+  		$("#ftr1").addClass("hideMe");
+  		$("#porqueBtn").addClass("moveB");
+  		$("#comoBtn").addClass("moveB");
+  		$("#queBtn").addClass("expand selected2");
+  	}
+  });
+
+  $("#comoBtn").click(function() {
+    if ($(".selected1")[0]) {
+    	$("#queBtn").removeClass("moveA");
+    	$("#comoBtn").removeClass("moveA");
+    	$("#porqueBtn").removeClass("expand");
+    	$("#porqueBtn").removeClass("selected1");
+  		$("#ftr2").removeClass("hideMe");
+  		$("#ftr3").removeClass("hideMe");
+  	}
+  	if ($(".selected2")[0]) {
+	  	$("#porqueBtn").removeClass("moveB");
+	  	$("#comoBtn").removeClass("moveB");
+	  	$("#queBtn").removeClass("selected2");
+	  	$("#queBtn").removeClass("expand");
+  		$("#ftr1").removeClass("hideMe");
+  		$("#ftr2").removeClass("hideMe");
+  	}
+  	if ($(".selected3")[0]) {
+	  	$("#porqueBtn").removeClass("moveB");
+	  	$("#comoBtn").removeClass("expand");
+	  	$("#comoBtn").removeClass("selected3");
+	  	$("#queBtn").removeClass("moveA");
+  		$("#ftr1").removeClass("hideMe");
+  		$("#ftr3").removeClass("hideMe");
+  	}
+  	else {
+  		$("#ftr1").addClass("hideMe");
+  		$("#ftr3").addClass("hideMe");
+  		$("#porqueBtn").addClass("moveB");
+  		$("#queBtn").addClass("moveA");
+  		$("#comoBtn").addClass("expand selected3");
+  	}
+  });
+
+
+</script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('.carousel').carousel({interval: 5000});
+  });
+</script>
+<link rel='stylesheet' id='open-sans-css'  href='https://fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-includes/css/dashicons.min.css?ver=4.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='admin-bar-css'  href='http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-includes/css/admin-bar.min.css?ver=4.4.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-includes/js/admin-bar.min.js?ver=4.4.1'></script>
+	<script type="text/javascript">
+		(function() {
+			var request, b = document.body, c = 'className', cs = 'customize-support', rcs = new RegExp('(^|\\s+)(no-)?'+cs+'(\\s+|$)');
+
+			request = true;
+
+			b[c] = b[c].replace( rcs, ' ' );
+			b[c] += ( window.postMessage && request ? ' ' : ' no-' ) + cs;
+		}());
+	</script>
+			<div id="wpadminbar" class="nojq nojs">
+							<a class="screen-reader-shortcut" href="#wp-toolbar" tabindex="1">Abrir la barra de herramientas</a>
+						<div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Barra de herramientas" tabindex="0">
+				<ul id="wp-admin-bar-root-default" class="ab-top-menu">
+		<li id="wp-admin-bar-wp-logo" class="menupop"><a class="ab-item"  aria-haspopup="true" href="http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-admin/about.php"><span class="ab-icon"></span><span class="screen-reader-text">Acerca de WordPress</span></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-wp-logo-default" class="ab-submenu">
+		<li id="wp-admin-bar-about"><a class="ab-item"  href="http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-admin/about.php">Acerca de WordPress</a>		</li></ul><ul id="wp-admin-bar-wp-logo-external" class="ab-sub-secondary ab-submenu">
+		<li id="wp-admin-bar-wporg"><a class="ab-item"  href="https://wordpress.org">WordPress.org</a>		</li>
+		<li id="wp-admin-bar-documentation"><a class="ab-item"  href="https://codex.wordpress.org/">Documentación</a>		</li>
+		<li id="wp-admin-bar-support-forums"><a class="ab-item"  href="https://wordpress.org/support">Foros de soporte</a>		</li>
+		<li id="wp-admin-bar-feedback"><a class="ab-item"  href="https://wordpress.org/support/forum/requests-and-feedback">Sugerencias</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-site-name" class="menupop"><a class="ab-item"  aria-haspopup="true" href="http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-admin/">Tecnotabla</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-site-name-default" class="ab-submenu">
+		<li id="wp-admin-bar-dashboard"><a class="ab-item"  href="http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-admin/">Escritorio</a>		</li></ul><ul id="wp-admin-bar-appearance" class="ab-submenu">
+		<li id="wp-admin-bar-themes"><a class="ab-item"  href="http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-admin/themes.php">Temas</a>		</li>
+		<li id="wp-admin-bar-widgets"><a class="ab-item"  href="http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-admin/widgets.php">Widgets</a>		</li>
+		<li id="wp-admin-bar-menus"><a class="ab-item"  href="http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-admin/nav-menus.php">Menús</a>		</li>
+		<li id="wp-admin-bar-background" class="hide-if-customize"><a class="ab-item"  href="http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-admin/themes.php?page=custom-background">Fondo</a>		</li>
+		<li id="wp-admin-bar-header" class="hide-if-customize"><a class="ab-item"  href="http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-admin/themes.php?page=custom-header">Cabecera</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-customize" class="hide-if-no-customize"><a class="ab-item"  href="http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-admin/customize.php?url=http%3A%2F%2F23.253.99.79%2Fdesarrollo%2Ftecnotabla%2Fwordpress%2Fbasicas%2F">Personalizar</a>		</li>
+		<li id="wp-admin-bar-comments"><a class="ab-item"  href="http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-admin/edit-comments.php" title="0 comentarios están esperando moderación"><span class="ab-icon"></span><span id="ab-awaiting-mod" class="ab-label awaiting-mod pending-count count-0">0</span></a>		</li>
+		<li id="wp-admin-bar-new-content" class="menupop"><a class="ab-item"  aria-haspopup="true" href="http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-admin/post-new.php"><span class="ab-icon"></span><span class="ab-label">Nuevo</span></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-new-content-default" class="ab-submenu">
+		<li id="wp-admin-bar-new-post"><a class="ab-item"  href="http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-admin/post-new.php">Entrada</a>		</li>
+		<li id="wp-admin-bar-new-media"><a class="ab-item"  href="http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-admin/media-new.php">Medio</a>		</li>
+		<li id="wp-admin-bar-new-page"><a class="ab-item"  href="http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-admin/post-new.php?post_type=page">Página</a>		</li>
+		<li id="wp-admin-bar-new-user"><a class="ab-item"  href="http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-admin/user-new.php">Usuario</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-edit"><a class="ab-item"  href="http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-admin/post.php?post=6&#038;action=edit">Editar página</a>		</li></ul><ul id="wp-admin-bar-top-secondary" class="ab-top-secondary ab-top-menu">
+		<li id="wp-admin-bar-search" class="admin-bar-search"><div class="ab-item ab-empty-item" tabindex="-1"><form action="http://23.253.99.79/desarrollo/tecnotabla/wordpress/" method="get" id="adminbarsearch"><input class="adminbar-input" name="s" id="adminbar-search" type="text" value="" maxlength="150" /><label for="adminbar-search" class="screen-reader-text">Buscar</label><input type="submit" class="adminbar-button" value="Buscar"/></form></div>		</li>
+		<li id="wp-admin-bar-my-account" class="menupop with-avatar"><a class="ab-item"  aria-haspopup="true" href="http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-admin/profile.php">Hola, admin<img alt='' src='http://1.gravatar.com/avatar/d3ad832c1b522c85b7c1bba5cadf324d?s=26&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/d3ad832c1b522c85b7c1bba5cadf324d?s=52&amp;d=mm&amp;r=g 2x' class='avatar avatar-26 photo' height='26' width='26' /></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-user-actions" class="ab-submenu">
+		<li id="wp-admin-bar-user-info"><a class="ab-item" tabindex="-1" href="http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-admin/profile.php"><img alt='' src='http://1.gravatar.com/avatar/d3ad832c1b522c85b7c1bba5cadf324d?s=64&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/d3ad832c1b522c85b7c1bba5cadf324d?s=128&amp;d=mm&amp;r=g 2x' class='avatar avatar-64 photo' height='64' width='64' /><span class='display-name'>admin</span></a>		</li>
+		<li id="wp-admin-bar-edit-profile"><a class="ab-item"  href="http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-admin/profile.php">Editar mi perfil</a>		</li>
+		<li id="wp-admin-bar-logout"><a class="ab-item"  href="http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-login.php?action=logout&#038;_wpnonce=af999e0888">Cerrar sesión</a>		</li></ul></div>		</li></ul>			</div>
+						<a class="screen-reader-shortcut" href="http://23.253.99.79/desarrollo/tecnotabla/wordpress/wp-login.php?action=logout&#038;_wpnonce=af999e0888">Cerrar sesión</a>
+					</div>
+
+		</body>
+</html>
